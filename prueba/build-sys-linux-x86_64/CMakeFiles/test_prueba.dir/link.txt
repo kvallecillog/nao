@@ -1,0 +1,1 @@
+/usr/bin/c++   -g    CMakeFiles/test_prueba.dir/test.cpp.o  -o sdk/bin/test_prueba -rdynamic -Wl,-rpath,:::::::::::::: 

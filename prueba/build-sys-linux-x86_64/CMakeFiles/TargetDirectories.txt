@@ -1,0 +1,2 @@
+/home/kenneth/nao/workspace/qiworktree/prueba/build-sys-linux-x86_64/CMakeFiles/prueba.dir
+/home/kenneth/nao/workspace/qiworktree/prueba/build-sys-linux-x86_64/CMakeFiles/test_prueba.dir

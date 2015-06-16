@@ -1,0 +1,1 @@
+--name;test_prueba;--timeout;20;--;/home/kenneth/nao/workspace/qiworktree/prueba/build-sys-linux-x86_64/sdk/bin/test_prueba
