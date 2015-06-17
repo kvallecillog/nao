@@ -1,0 +1,1 @@
+/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-cross-atom/CMakeFiles/wbredball.dir
