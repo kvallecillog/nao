@@ -90,3 +90,63 @@ Linking C executable cmTryCompileExec2248494504
 make[1]: Leaving directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-cross-atom/CMakeFiles/CMakeTmp'
 
 
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-cross-atom/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3656593745/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3656593745.dir/build.make CMakeFiles/cmTryCompileExec3656593745.dir/build
+make[1]: Entering directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-cross-atom/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-cross-atom/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3656593745.dir/CheckIncludeFiles.c.o
+/home/kenneth/nao/devtools/nao-atom-cross-toolchain/cross/bin/i686-aldebaran-linux-gnu-gcc   --sysroot /home/kenneth/nao/devtools/nao-atom-cross-toolchain//sysroot/ -pipe -fomit-frame-pointer -fno-align-jumps -fno-align-functions -fno-align-labels -fno-align-loops -m32 -mtune=generic -DOE_CROSS_BUILD    -o CMakeFiles/cmTryCompileExec3656593745.dir/CheckIncludeFiles.c.o   -c /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-cross-atom/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec3656593745
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3656593745.dir/link.txt --verbose=1
+/home/kenneth/nao/devtools/nao-atom-cross-toolchain/cross/bin/i686-aldebaran-linux-gnu-gcc   --sysroot /home/kenneth/nao/devtools/nao-atom-cross-toolchain//sysroot/ -pipe -fomit-frame-pointer -fno-align-jumps -fno-align-functions -fno-align-labels -fno-align-loops -m32 -mtune=generic -DOE_CROSS_BUILD   -Wl,--sysroot,/home/kenneth/nao/devtools/nao-atom-cross-toolchain//sysroot/ CMakeFiles/cmTryCompileExec3656593745.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3656593745 -rdynamic 
+make[1]: Leaving directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-cross-atom/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-cross-atom/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3889828394/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3889828394.dir/build.make CMakeFiles/cmTryCompileExec3889828394.dir/build
+make[1]: Entering directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-cross-atom/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-cross-atom/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3889828394.dir/CheckFunctionExists.c.o
+/home/kenneth/nao/devtools/nao-atom-cross-toolchain/cross/bin/i686-aldebaran-linux-gnu-gcc   --sysroot /home/kenneth/nao/devtools/nao-atom-cross-toolchain//sysroot/ -pipe -fomit-frame-pointer -fno-align-jumps -fno-align-functions -fno-align-labels -fno-align-loops -m32 -mtune=generic -DOE_CROSS_BUILD -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec3889828394.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3889828394
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3889828394.dir/link.txt --verbose=1
+/home/kenneth/nao/devtools/nao-atom-cross-toolchain/cross/bin/i686-aldebaran-linux-gnu-gcc   --sysroot /home/kenneth/nao/devtools/nao-atom-cross-toolchain//sysroot/ -pipe -fomit-frame-pointer -fno-align-jumps -fno-align-functions -fno-align-labels -fno-align-loops -m32 -mtune=generic -DOE_CROSS_BUILD -DCHECK_FUNCTION_EXISTS=pthread_create  -Wl,--sysroot,/home/kenneth/nao/devtools/nao-atom-cross-toolchain//sysroot/ CMakeFiles/cmTryCompileExec3889828394.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3889828394 -rdynamic -lpthread 
+make[1]: Leaving directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-cross-atom/CMakeFiles/CMakeTmp'
+
+
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-cross-atom/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1077714066/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1077714066.dir/build.make CMakeFiles/cmTryCompileExec1077714066.dir/build
+make[1]: Entering directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-cross-atom/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-cross-atom/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1077714066.dir/CheckIncludeFiles.c.o
+/home/kenneth/nao/devtools/nao-atom-cross-toolchain/cross/bin/i686-aldebaran-linux-gnu-gcc   --sysroot /home/kenneth/nao/devtools/nao-atom-cross-toolchain//sysroot/ -pipe -fomit-frame-pointer -fno-align-jumps -fno-align-functions -fno-align-labels -fno-align-loops -m32 -mtune=generic -DOE_CROSS_BUILD    -o CMakeFiles/cmTryCompileExec1077714066.dir/CheckIncludeFiles.c.o   -c /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-cross-atom/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec1077714066
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1077714066.dir/link.txt --verbose=1
+/home/kenneth/nao/devtools/nao-atom-cross-toolchain/cross/bin/i686-aldebaran-linux-gnu-gcc   --sysroot /home/kenneth/nao/devtools/nao-atom-cross-toolchain//sysroot/ -pipe -fomit-frame-pointer -fno-align-jumps -fno-align-functions -fno-align-labels -fno-align-loops -m32 -mtune=generic -DOE_CROSS_BUILD   -Wl,--sysroot,/home/kenneth/nao/devtools/nao-atom-cross-toolchain//sysroot/ CMakeFiles/cmTryCompileExec1077714066.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec1077714066 -rdynamic 
+make[1]: Leaving directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-cross-atom/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-cross-atom/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2623377569/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2623377569.dir/build.make CMakeFiles/cmTryCompileExec2623377569.dir/build
+make[1]: Entering directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-cross-atom/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-cross-atom/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2623377569.dir/CheckFunctionExists.c.o
+/home/kenneth/nao/devtools/nao-atom-cross-toolchain/cross/bin/i686-aldebaran-linux-gnu-gcc   --sysroot /home/kenneth/nao/devtools/nao-atom-cross-toolchain//sysroot/ -pipe -fomit-frame-pointer -fno-align-jumps -fno-align-functions -fno-align-labels -fno-align-loops -m32 -mtune=generic -DOE_CROSS_BUILD -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec2623377569.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2623377569
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2623377569.dir/link.txt --verbose=1
+/home/kenneth/nao/devtools/nao-atom-cross-toolchain/cross/bin/i686-aldebaran-linux-gnu-gcc   --sysroot /home/kenneth/nao/devtools/nao-atom-cross-toolchain//sysroot/ -pipe -fomit-frame-pointer -fno-align-jumps -fno-align-functions -fno-align-labels -fno-align-loops -m32 -mtune=generic -DOE_CROSS_BUILD -DCHECK_FUNCTION_EXISTS=pthread_create  -Wl,--sysroot,/home/kenneth/nao/devtools/nao-atom-cross-toolchain//sysroot/ CMakeFiles/cmTryCompileExec2623377569.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2623377569 -rdynamic -lpthread 
+make[1]: Leaving directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-cross-atom/CMakeFiles/CMakeTmp'
+
+

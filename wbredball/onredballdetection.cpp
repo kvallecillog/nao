@@ -200,16 +200,9 @@ bool OnRedBallDetection::walkToTarget(float x, float y)
     else{
        targetDistance = sqrt( pow(x,2) +  pow(y,2) );
        // Setting 10 cm distance to target.
-       if( targetDistance > 0.40){
-                   velocityX = 0.8;
-       }
-       else if (targetDistance > 0.20)
+      if (targetDistance > 0.10)
        {
-         velocityX = 0.4;
-       }
-      else if (targetDistance > 0.10)
-       {
-         velocityX = 0.4;
+         velocityX = 0.8;
        }
        else{
       // Final position reached. Stop. 
