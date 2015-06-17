@@ -401,6 +401,9 @@ TINYXML_LIBRARY:FILEPATH=/home/kenneth/nao/devtools/nao-atom-cross-toolchain/sys
 
 WBREDBALL_DEPENDS:STRING=ALCOMMON;ALSOAP;RTTOOLS;ALTHREAD;BOOST_SIGNALS;BOOST_PROGRAM_OPTIONS;ALVALUE;TINYXML;RT;QI;ALERROR;BOOST;BOOST_FILESYSTEM;BOOST_THREAD;BOOST_SYSTEM;PTHREAD;DL
 
+//module is compiled as a remote module (ON or OFF)
+WBREDBALL_IS_REMOTE:BOOL=ON
+
 _QI_USE_LIB_WBREDBALL:STRING=
 
 _QI_USE_LIB_WBREDBALL@ALCOMMON:STRING=ALCOMMON;ALSOAP;RTTOOLS;ALTHREAD;BOOST_SIGNALS;BOOST_PROGRAM_OPTIONS;ALVALUE;TINYXML;RT;QI;ALERROR;BOOST;BOOST_FILESYSTEM;BOOST_THREAD;BOOST_SYSTEM;PTHREAD;DL
@@ -422,6 +425,9 @@ time.h_INCLUDE:PATH=/home/kenneth/nao/devtools/nao-atom-cross-toolchain/sysroot/
 
 //Value Computed by CMake
 wbredball_BINARY_DIR:STATIC=/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-cross-atom
+
+//Dependencies for the target
+wbredball_LIB_DEPENDS:STATIC=general;/home/kenneth/nao/devtools/nao-atom-cross-toolchain/sysroot/usr/lib/libalproxies.so;general;/home/kenneth/nao/devtools/nao-atom-cross-toolchain/sysroot/usr/lib/libalsoap.so;general;/home/kenneth/nao/devtools/nao-atom-cross-toolchain/sysroot/usr/lib/librttools.so;general;/home/kenneth/nao/devtools/nao-atom-cross-toolchain/sysroot/usr/lib/libalthread.so;optimized;/home/kenneth/nao/devtools/nao-atom-cross-toolchain/sysroot/usr/lib/libboost_signals-mt-1_48.so;debug;/home/kenneth/nao/devtools/nao-atom-cross-toolchain/sysroot/usr/lib/libboost_signals-mt.so;optimized;/home/kenneth/nao/devtools/nao-atom-cross-toolchain/sysroot/usr/lib/libboost_program_options-mt-1_48.so;debug;/home/kenneth/nao/devtools/nao-atom-cross-toolchain/sysroot/usr/lib/libboost_program_options-mt.so;general;/home/kenneth/nao/devtools/nao-atom-cross-toolchain/sysroot/usr/lib/libalvalue.so;general;/home/kenneth/nao/devtools/nao-atom-cross-toolchain/sysroot/usr/lib/libtinyxml.so;general;/home/kenneth/nao/devtools/nao-atom-cross-toolchain/sysroot/usr/lib/librt.so;general;/home/kenneth/nao/devtools/nao-atom-cross-toolchain/sysroot/usr/lib/libqi.so;general;/home/kenneth/nao/devtools/nao-atom-cross-toolchain/sysroot/usr/lib/libalerror.so;optimized;/home/kenneth/nao/devtools/nao-atom-cross-toolchain/sysroot/usr/lib/libboost_filesystem-mt-1_48.so;debug;/home/kenneth/nao/devtools/nao-atom-cross-toolchain/sysroot/usr/lib/libboost_filesystem-mt.so;optimized;/home/kenneth/nao/devtools/nao-atom-cross-toolchain/sysroot/usr/lib/libboost_thread-mt-1_48.so;debug;/home/kenneth/nao/devtools/nao-atom-cross-toolchain/sysroot/usr/lib/libboost_thread-mt.so;general;/home/kenneth/nao/devtools/nao-atom-cross-toolchain/sysroot/usr/lib/libpthread.so;optimized;/home/kenneth/nao/devtools/nao-atom-cross-toolchain/sysroot/usr/lib/libboost_system-mt-1_48.so;debug;/home/kenneth/nao/devtools/nao-atom-cross-toolchain/sysroot/usr/lib/libboost_system-mt.so;general;-lpthread;general;/home/kenneth/nao/devtools/nao-atom-cross-toolchain/sysroot/usr/lib/libdl.so;
 
 //Value Computed by CMake
 wbredball_SOURCE_DIR:STATIC=/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball
@@ -788,6 +794,7 @@ pthread.h_INCLUDE-ADVANCED:INTERNAL=1
 qibuild_DIR:INTERNAL=/home/kenneth/nao/devtools/qibuild/cmake/qibuild
 //ADVANCED property for variable: time.h_INCLUDE
 time.h_INCLUDE-ADVANCED:INTERNAL=1
+wbredball_INTERNAL:INTERNAL=FALSE
 wbredball_NO_INSTALL:INTERNAL=FALSE
-wbredball_SUBFOLDER:INTERNAL=
+wbredball_SUBFOLDER:INTERNAL=naoqi
 

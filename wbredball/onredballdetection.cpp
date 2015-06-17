@@ -68,7 +68,7 @@ void OnRedBallDetection::init() {
 
     posture_proxy->applyPosture(posture, maxSpeedFraction);
 
-    posture = "StandInit";
+    posture = "StandZero";
     maxSpeedFraction = 0.2f;
     posture_proxy->applyPosture(posture, maxSpeedFraction);
 
@@ -178,7 +178,11 @@ bool OnRedBallDetection::walkToTarget(float x, float y)
 {
     float targetDistance, targetAngle;
     float velocityX, velocityTheta;
+    std::string posture;
+    float maxSpeedFraction;
 
+    boost::shared_ptr<AL::ALRobotPostureProxy> posture_proxy =
+    getParentBroker()->getSpecialisedProxy<AL::ALRobotPostureProxy>("ALRobotPosture");
 
     targetAngle = atan2(y, x);
 
@@ -200,13 +204,17 @@ bool OnRedBallDetection::walkToTarget(float x, float y)
     else{
        targetDistance = sqrt( pow(x,2) +  pow(y,2) );
        // Setting 10 cm distance to target.
-      if (targetDistance > 0.10)
+      if (targetDistance >= 0.8)
        {
-         velocityX = 0.8;
+         velocityX = 0.9;
        }
        else{
       // Final position reached. Stop. 
                    velocityX = 0.0;
+                   posture = "StandZero";
+                   maxSpeedFraction = 0.2f;
+                   posture_proxy->applyPosture(posture, maxSpeedFraction);
+                   cout << "Ball reached" << endl;
        }
 
     }

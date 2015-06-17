@@ -351,3 +351,453 @@ Linking C executable cmTryCompileExec2466855560
 make[1]: Leaving directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
 
 
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3299544443/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3299544443.dir/build.make CMakeFiles/cmTryCompileExec3299544443.dir/build
+make[1]: Entering directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3299544443.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3299544443.dir/CheckIncludeFiles.c.o   -c /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec3299544443
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3299544443.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3299544443.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3299544443 -rdynamic 
+make[1]: Leaving directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1552469085/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1552469085.dir/build.make CMakeFiles/cmTryCompileExec1552469085.dir/build
+make[1]: Entering directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1552469085.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec1552469085.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1552469085
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1552469085.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec1552469085.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1552469085 -rdynamic -lpthread 
+make[1]: Leaving directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
+
+
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1859525775/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1859525775.dir/build.make CMakeFiles/cmTryCompileExec1859525775.dir/build
+make[1]: Entering directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1859525775.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1859525775.dir/CheckIncludeFiles.c.o   -c /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec1859525775
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1859525775.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1859525775.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec1859525775 -rdynamic 
+make[1]: Leaving directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3963933520/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3963933520.dir/build.make CMakeFiles/cmTryCompileExec3963933520.dir/build
+make[1]: Entering directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3963933520.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec3963933520.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3963933520
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3963933520.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec3963933520.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3963933520 -rdynamic -lpthread 
+make[1]: Leaving directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
+
+
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3668466958/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3668466958.dir/build.make CMakeFiles/cmTryCompileExec3668466958.dir/build
+make[1]: Entering directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3668466958.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3668466958.dir/CheckIncludeFiles.c.o   -c /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec3668466958
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3668466958.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3668466958.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3668466958 -rdynamic 
+make[1]: Leaving directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec963570687/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec963570687.dir/build.make CMakeFiles/cmTryCompileExec963570687.dir/build
+make[1]: Entering directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec963570687.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec963570687.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec963570687
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec963570687.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec963570687.dir/CheckFunctionExists.c.o  -o cmTryCompileExec963570687 -rdynamic -lpthread 
+make[1]: Leaving directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
+
+
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1708293182/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1708293182.dir/build.make CMakeFiles/cmTryCompileExec1708293182.dir/build
+make[1]: Entering directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1708293182.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1708293182.dir/CheckIncludeFiles.c.o   -c /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec1708293182
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1708293182.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1708293182.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec1708293182 -rdynamic 
+make[1]: Leaving directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2792203565/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2792203565.dir/build.make CMakeFiles/cmTryCompileExec2792203565.dir/build
+make[1]: Entering directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2792203565.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec2792203565.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2792203565
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2792203565.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec2792203565.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2792203565 -rdynamic -lpthread 
+make[1]: Leaving directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
+
+
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4282772302/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4282772302.dir/build.make CMakeFiles/cmTryCompileExec4282772302.dir/build
+make[1]: Entering directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4282772302.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec4282772302.dir/CheckIncludeFiles.c.o   -c /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec4282772302
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4282772302.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec4282772302.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec4282772302 -rdynamic 
+make[1]: Leaving directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1366898918/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1366898918.dir/build.make CMakeFiles/cmTryCompileExec1366898918.dir/build
+make[1]: Entering directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1366898918.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec1366898918.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1366898918
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1366898918.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec1366898918.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1366898918 -rdynamic -lpthread 
+make[1]: Leaving directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
+
+
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec161429687/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec161429687.dir/build.make CMakeFiles/cmTryCompileExec161429687.dir/build
+make[1]: Entering directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec161429687.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec161429687.dir/CheckIncludeFiles.c.o   -c /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec161429687
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec161429687.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec161429687.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec161429687 -rdynamic 
+make[1]: Leaving directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1638084777/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1638084777.dir/build.make CMakeFiles/cmTryCompileExec1638084777.dir/build
+make[1]: Entering directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1638084777.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec1638084777.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1638084777
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1638084777.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec1638084777.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1638084777 -rdynamic -lpthread 
+make[1]: Leaving directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
+
+
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1251143783/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1251143783.dir/build.make CMakeFiles/cmTryCompileExec1251143783.dir/build
+make[1]: Entering directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1251143783.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1251143783.dir/CheckIncludeFiles.c.o   -c /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec1251143783
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1251143783.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1251143783.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec1251143783 -rdynamic 
+make[1]: Leaving directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1770344951/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1770344951.dir/build.make CMakeFiles/cmTryCompileExec1770344951.dir/build
+make[1]: Entering directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1770344951.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec1770344951.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1770344951
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1770344951.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec1770344951.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1770344951 -rdynamic -lpthread 
+make[1]: Leaving directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
+
+
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1769482729/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1769482729.dir/build.make CMakeFiles/cmTryCompileExec1769482729.dir/build
+make[1]: Entering directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1769482729.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1769482729.dir/CheckIncludeFiles.c.o   -c /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec1769482729
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1769482729.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1769482729.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec1769482729 -rdynamic 
+make[1]: Leaving directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2685265937/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2685265937.dir/build.make CMakeFiles/cmTryCompileExec2685265937.dir/build
+make[1]: Entering directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2685265937.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec2685265937.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2685265937
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2685265937.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec2685265937.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2685265937 -rdynamic -lpthread 
+make[1]: Leaving directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
+
+
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2501666039/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2501666039.dir/build.make CMakeFiles/cmTryCompileExec2501666039.dir/build
+make[1]: Entering directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2501666039.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2501666039.dir/CheckIncludeFiles.c.o   -c /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec2501666039
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2501666039.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2501666039.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2501666039 -rdynamic 
+make[1]: Leaving directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1047426082/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1047426082.dir/build.make CMakeFiles/cmTryCompileExec1047426082.dir/build
+make[1]: Entering directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1047426082.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec1047426082.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1047426082
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1047426082.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec1047426082.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1047426082 -rdynamic -lpthread 
+make[1]: Leaving directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
+
+
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1548926820/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1548926820.dir/build.make CMakeFiles/cmTryCompileExec1548926820.dir/build
+make[1]: Entering directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1548926820.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1548926820.dir/CheckIncludeFiles.c.o   -c /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec1548926820
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1548926820.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1548926820.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec1548926820 -rdynamic 
+make[1]: Leaving directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2325898769/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2325898769.dir/build.make CMakeFiles/cmTryCompileExec2325898769.dir/build
+make[1]: Entering directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2325898769.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec2325898769.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2325898769
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2325898769.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec2325898769.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2325898769 -rdynamic -lpthread 
+make[1]: Leaving directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
+
+
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec16513976/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec16513976.dir/build.make CMakeFiles/cmTryCompileExec16513976.dir/build
+make[1]: Entering directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec16513976.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec16513976.dir/CheckIncludeFiles.c.o   -c /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec16513976
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec16513976.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec16513976.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec16513976 -rdynamic 
+make[1]: Leaving directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec955147156/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec955147156.dir/build.make CMakeFiles/cmTryCompileExec955147156.dir/build
+make[1]: Entering directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec955147156.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec955147156.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec955147156
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec955147156.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec955147156.dir/CheckFunctionExists.c.o  -o cmTryCompileExec955147156 -rdynamic -lpthread 
+make[1]: Leaving directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
+
+
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec715875201/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec715875201.dir/build.make CMakeFiles/cmTryCompileExec715875201.dir/build
+make[1]: Entering directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec715875201.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec715875201.dir/CheckIncludeFiles.c.o   -c /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec715875201
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec715875201.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec715875201.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec715875201 -rdynamic 
+make[1]: Leaving directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec130068902/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec130068902.dir/build.make CMakeFiles/cmTryCompileExec130068902.dir/build
+make[1]: Entering directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec130068902.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec130068902.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec130068902
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec130068902.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec130068902.dir/CheckFunctionExists.c.o  -o cmTryCompileExec130068902 -rdynamic -lpthread 
+make[1]: Leaving directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
+
+
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3364874886/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3364874886.dir/build.make CMakeFiles/cmTryCompileExec3364874886.dir/build
+make[1]: Entering directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3364874886.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3364874886.dir/CheckIncludeFiles.c.o   -c /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec3364874886
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3364874886.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3364874886.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3364874886 -rdynamic 
+make[1]: Leaving directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3601437522/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3601437522.dir/build.make CMakeFiles/cmTryCompileExec3601437522.dir/build
+make[1]: Entering directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3601437522.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec3601437522.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3601437522
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3601437522.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec3601437522.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3601437522 -rdynamic -lpthread 
+make[1]: Leaving directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
+
+
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1583212189/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1583212189.dir/build.make CMakeFiles/cmTryCompileExec1583212189.dir/build
+make[1]: Entering directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1583212189.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1583212189.dir/CheckIncludeFiles.c.o   -c /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec1583212189
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1583212189.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1583212189.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec1583212189 -rdynamic 
+make[1]: Leaving directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1163421078/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1163421078.dir/build.make CMakeFiles/cmTryCompileExec1163421078.dir/build
+make[1]: Entering directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1163421078.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec1163421078.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1163421078
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1163421078.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec1163421078.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1163421078 -rdynamic -lpthread 
+make[1]: Leaving directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
+
+
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2565642031/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2565642031.dir/build.make CMakeFiles/cmTryCompileExec2565642031.dir/build
+make[1]: Entering directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2565642031.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2565642031.dir/CheckIncludeFiles.c.o   -c /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec2565642031
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2565642031.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2565642031.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2565642031 -rdynamic 
+make[1]: Leaving directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2673282175/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2673282175.dir/build.make CMakeFiles/cmTryCompileExec2673282175.dir/build
+make[1]: Entering directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2673282175.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec2673282175.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2673282175
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2673282175.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec2673282175.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2673282175 -rdynamic -lpthread 
+make[1]: Leaving directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
+
+
