@@ -61,7 +61,7 @@ void OnRedBallDetection::init() {
     // print motion state
     std::cout << motionProxy.getSummary() << std::endl;
     boost::shared_ptr<AL::ALRobotPostureProxy> posture_proxy =
-        getParentBroker()->getSpecialisedProxy<AL::ALRobotPostureProxy>("ALRobotPosture");
+    getParentBroker()->getSpecialisedProxy<AL::ALRobotPostureProxy>("ALRobotPosture");
 
     std::string posture = "Crouch";
     float maxSpeedFraction = 0.3f;
@@ -75,6 +75,7 @@ void OnRedBallDetection::init() {
     ballProxy.setWholeBodyOn(false);
     ballProxy.startTracker();
 
+    // We can modify this to make single reach.
     while(1){
         reachBall();
     }
@@ -181,9 +182,12 @@ bool OnRedBallDetection::walkToTarget(float x, float y)
     std::string posture;
     float maxSpeedFraction;
 
-    boost::shared_ptr<AL::ALRobotPostureProxy> posture_proxy =
-    getParentBroker()->getSpecialisedProxy<AL::ALRobotPostureProxy>("ALRobotPosture");
-
+   // boost::shared_ptr<AL::ALRobotPostureProxy> posture_proxy =
+   // getParentBroker()->getSpecialisedProxy<AL::ALRobotPostureProxy>("ALRobotPosture");
+    std::string side = "Right";
+    AL::ALValue names  = AL::ALValue::array("RHipRoll", "RHipPitch","RKneePitch","RAnklePitch","RAnkleRoll");
+    AL::ALValue angles      = AL::ALValue::array(0.3f, -0.3f);
+    float fractionMaxSpeed  = 0.1f;
     targetAngle = atan2(y, x);
 
     // Parameters init.
@@ -211,10 +215,12 @@ bool OnRedBallDetection::walkToTarget(float x, float y)
        else{
       // Final position reached. Stop. 
                    velocityX = 0.0;
-                   posture = "StandZero";
-                   maxSpeedFraction = 0.2f;
-                   posture_proxy->applyPosture(posture, maxSpeedFraction);
+       //          posture = "StandZero";
+       //          maxSpeedFraction = 0.2f;
+       //          posture_proxy->applyPosture(posture, maxSpeedFraction);
+                    wbKick(side);
                    cout << "Ball reached" << endl;
+
        }
 
     }
@@ -235,6 +241,80 @@ bool OnRedBallDetection::walkToTarget(float x, float y)
         ballCounter = 0;
         return false;
     }
+}
+void OnRedBallDetection::wbKick(std::string side){
+
+  int axisMask = 63; 
+  int space = 2;
+
+  float dx = 0.1f;
+  float dz = 0.05f;
+  float dwy = 5.0*AL::Math::TO_RAD;
+  float duration = 2.0f;
+
+  AL::ALValue times = AL::ALValue::array(1.0f, 1.3f, 1.8f);
+  bool isAbsolute = false;
+
+  AL::ALValue targetList = AL::ALValue::array(
+    AL::ALValue::array(-dx/1.5,0.0f,dz, 0.0f, +dwy, 0.0f),
+    AL::ALValue::array(+dx,0.0f,dz, 0.0f, 0.0f, 0.0f),
+    AL::ALValue::array(0.0f,0.0f,0.0f, 0.0f, 0.0f, 0.0f)
+    );
+  bool isEnabled = true;
+  motionProxy.wbEnable(isEnabled);
+
+  std::string stateName = "Fixed";
+  std::string supportLeg = "Legs";
+  motionProxy.wbFootState (stateName, supportLeg);
+
+  if(side=="Left"){
+
+      // Example showing how to Enable Effector Control as an Optimization.
+  std::string effectorName = "LLeg";
+  bool isActive = true;
+  motionProxy.wbEnableEffectorOptimization(effectorName, isActive);
+
+  supportLeg = "LLEG";
+  motionProxy.wbGoToBalance(supportLeg, duration);
+
+  stateName = "Free";
+  supportLeg = "RLEG";
+  motionProxy.wbFootState(stateName, supportLeg);
+
+  effectorName = "RLEG";
+
+  motionProxy.positionInterpolation(effectorName, space, targetList,axisMask,times,isAbsolute);
+
+  }
+  else if (side == "Right"){
+      std::string effectorName = "RLeg";
+      bool isActive = false;
+      motionProxy.wbEnableEffectorOptimization(effectorName,isActive);
+
+      supportLeg = "RLEG";
+      motionProxy.wbGoToBalance(supportLeg, duration);
+      stateName = "Free";
+      supportLeg = "LLEG";
+      motionProxy.wbFootState(stateName,supportLeg);
+
+      effectorName = "LLEG";
+      motionProxy.positionInterpolation(effectorName,space,targetList,axisMask,times,isAbsolute);
+  }
+  qi::os::msleep(1000);
+  isEnabled = false;
+  motionProxy.wbEnable(isEnabled);
+  //poseInit();
+
+
+}
+
+void OnRedBallDetection::poseInit()
+{
+
+  boost::shared_ptr<AL::ALRobotPostureProxy> proxy = getParentBroker()->getSpecialisedProxy<AL::ALRobotPostureProxy>("ALRobotPosture");
+  std::string posture = "StandInit";
+  const float maxSpeedFraction = 0.2f;
+  proxy->applyPosture(posture,maxSpeedFraction);
 }
 
 void OnRedBallDetection::stopMovement(){

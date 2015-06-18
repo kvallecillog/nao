@@ -391,6 +391,9 @@ TINYXML_LIBRARY:FILEPATH=/home/kenneth/nao/devtools/naoqi-sdk/lib/libtinyxml.so
 
 WBREDBALL_DEPENDS:STRING=ALCOMMON;ALCOMMON-INTERNAL;ALSOAP;RTTOOLS;ALTHREAD;BOOST_SIGNALS;BOOST_PROGRAM_OPTIONS;ALVALUE;TINYXML;RT;QI;BOOST_FILESYSTEM;BOOST_THREAD;BOOST_SYSTEM;PTHREAD;DL;ALERROR;BOOST
 
+//module is compiled as a remote module (ON or OFF)
+WBREDBALL_IS_REMOTE:BOOL=ON
+
 _QI_USE_LIB_WBREDBALL:STRING=
 
 _QI_USE_LIB_WBREDBALL@ALCOMMON:STRING=ALCOMMON;ALCOMMON-INTERNAL;ALSOAP;RTTOOLS;ALTHREAD;BOOST_SIGNALS;BOOST_PROGRAM_OPTIONS;ALVALUE;TINYXML;RT;QI;BOOST_FILESYSTEM;BOOST_THREAD;BOOST_SYSTEM;PTHREAD;DL;ALERROR;BOOST
@@ -412,6 +415,9 @@ time.h_INCLUDE:PATH=/usr/include
 
 //Value Computed by CMake
 wbredball_BINARY_DIR:STATIC=/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote
+
+//Dependencies for the target
+wbredball_LIB_DEPENDS:STATIC=general;/home/kenneth/nao/devtools/naoqi-sdk/lib/libalproxies.so;general;/home/kenneth/nao/devtools/naoqi-sdk/lib/libalcommon.so;general;/home/kenneth/nao/devtools/naoqi-sdk/lib/libalsoap.so;general;/home/kenneth/nao/devtools/naoqi-sdk/lib/librttools.so;general;/home/kenneth/nao/devtools/naoqi-sdk/lib/libalthread.so;general;/home/kenneth/nao/devtools/naoqi-sdk/lib/libboost_signals-mt.a;general;/home/kenneth/nao/devtools/naoqi-sdk/lib/libboost_program_options-mt.a;general;/home/kenneth/nao/devtools/naoqi-sdk/lib/libalvalue.so;general;/home/kenneth/nao/devtools/naoqi-sdk/lib/libtinyxml.so;general;/usr/lib/x86_64-linux-gnu/librt.so;general;/home/kenneth/nao/devtools/naoqi-sdk/lib/libqi.so;general;/home/kenneth/nao/devtools/naoqi-sdk/lib/libboost_filesystem-mt.a;general;/home/kenneth/nao/devtools/naoqi-sdk/lib/libboost_thread-mt.a;general;/usr/lib/x86_64-linux-gnu/libpthread.so;general;/home/kenneth/nao/devtools/naoqi-sdk/lib/libboost_system-mt.a;general;-lpthread;general;/usr/lib/x86_64-linux-gnu/libdl.so;general;/home/kenneth/nao/devtools/naoqi-sdk/lib/libalerror.so;
 
 //Value Computed by CMake
 wbredball_SOURCE_DIR:STATIC=/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball
@@ -778,6 +784,7 @@ pthread.h_INCLUDE-ADVANCED:INTERNAL=1
 qibuild_DIR:INTERNAL=/home/kenneth/nao/devtools/qibuild/cmake/qibuild
 //ADVANCED property for variable: time.h_INCLUDE
 time.h_INCLUDE-ADVANCED:INTERNAL=1
+wbredball_INTERNAL:INTERNAL=FALSE
 wbredball_NO_INSTALL:INTERNAL=FALSE
-wbredball_SUBFOLDER:INTERNAL=
+wbredball_SUBFOLDER:INTERNAL=naoqi
 

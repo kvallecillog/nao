@@ -43,6 +43,8 @@ class OnRedBallDetection : public AL::ALModule
     void reachBall();
     bool walkToTarget(float, float);
     //void turn(float);
+    void wbKick(std::string);
+    void poseInit();
     void stopMovement();
 
   private:
