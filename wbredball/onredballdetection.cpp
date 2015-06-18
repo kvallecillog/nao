@@ -68,16 +68,18 @@ void OnRedBallDetection::init() {
 
     posture_proxy->applyPosture(posture, maxSpeedFraction);
 
-    posture = "StandZero";
+    posture = "StandInit";
     maxSpeedFraction = 0.2f;
     posture_proxy->applyPosture(posture, maxSpeedFraction);
 
     ballProxy.setWholeBodyOn(false);
     ballProxy.startTracker();
 
+    std::string side = "Right";
     // We can modify this to make single reach.
     while(1){
         reachBall();
+        wbKick(side);
     }
 
     //check_position();
@@ -185,9 +187,9 @@ bool OnRedBallDetection::walkToTarget(float x, float y)
    // boost::shared_ptr<AL::ALRobotPostureProxy> posture_proxy =
    // getParentBroker()->getSpecialisedProxy<AL::ALRobotPostureProxy>("ALRobotPosture");
     std::string side = "Right";
-    AL::ALValue names  = AL::ALValue::array("RHipRoll", "RHipPitch","RKneePitch","RAnklePitch","RAnkleRoll");
-    AL::ALValue angles      = AL::ALValue::array(0.3f, -0.3f);
-    float fractionMaxSpeed  = 0.1f;
+//    AL::ALValue names  = AL::ALValue::array("RHipRoll", "RHipPitch","RKneePitch","RAnklePitch","RAnkleRoll");
+//    AL::ALValue angles      = AL::ALValue::array(0.3f, -0.3f);
+ //   float fractionMaxSpeed  = 0.1f;
     targetAngle = atan2(y, x);
 
     // Parameters init.
@@ -218,7 +220,7 @@ bool OnRedBallDetection::walkToTarget(float x, float y)
        //          posture = "StandZero";
        //          maxSpeedFraction = 0.2f;
        //          posture_proxy->applyPosture(posture, maxSpeedFraction);
-                    wbKick(side);
+                    //wbKick(side);
                    cout << "Ball reached" << endl;
 
        }
