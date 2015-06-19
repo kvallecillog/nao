@@ -6,6 +6,22 @@
 
 #IncludeRegexTransform: 
 
+/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/main.cpp
+signal.h
+-
+boost/shared_ptr.hpp
+-
+alcommon/albroker.h
+-
+alcommon/almodule.h
+-
+alcommon/albrokermanager.h
+-
+alcommon/altoolsmain.h
+-
+onredballdetection.h
+/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/onredballdetection.h
+
 /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/onredballdetection.cpp
 onredballdetection.h
 /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/onredballdetection.h
@@ -64,6 +80,12 @@ boost/smart_ptr/enable_shared_from_this.hpp
 boost/noncopyable.hpp
 -
 qi/macro.hpp
+-
+
+/home/kenneth/nao/devtools/naoqi-sdk/include/alcommon/albrokermanager.h
+vector
+-
+boost/shared_ptr.hpp
 -
 
 /home/kenneth/nao/devtools/naoqi-sdk/include/alcommon/alfunctor.h
@@ -148,6 +170,12 @@ alcommon/alproxy.hxx
 
 /home/kenneth/nao/devtools/naoqi-sdk/include/alcommon/alproxy.hxx
 alcommon/detail/alpcall.h
+-
+
+/home/kenneth/nao/devtools/naoqi-sdk/include/alcommon/altoolsmain.h
+boost/shared_ptr.hpp
+-
+boost/function/function_fwd.hpp
 -
 
 /home/kenneth/nao/devtools/naoqi-sdk/include/alcommon/detail/alfunctorwithoutreturn.h

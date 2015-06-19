@@ -73,14 +73,14 @@ void OnRedBallDetection::init() {
     posture_proxy->applyPosture(posture, maxSpeedFraction);
 
     ballProxy.setWholeBodyOn(false);
-    ballProxy.startTracker();
+ //   ballProxy.startTracker();
 
     std::string side = "Right";
     // We can modify this to make single reach.
-    while(1){
-        reachBall();
-        wbKick(side);
-    }
+    //while(1){
+   //    reachBall();
+       wbKick(side);
+    //}
 
     //check_position();
 }
@@ -141,110 +141,151 @@ void OnRedBallDetection::stop(){
      motionProxy.stopMove();
 }*/
 
-void OnRedBallDetection::reachBall(){
+// void OnRedBallDetection::reachBall(){
 
-    //videoProxy.setActiveCamera(0);
+//     //videoProxy.setActiveCamera(0);
 
-    ballProxy.setWholeBodyOn(false);
-    ballProxy.startTracker();
+//     ballProxy.setWholeBodyOn(false);
+//     ballProxy.startTracker();
 
 
-    vector<float> ballPosition;
-    int no_newData = 0;
+//     vector<float> ballPosition;
+//     int no_newData = 0;
 
-    bool ballInRange = false;
+//     bool ballInRange = false;
 
-    while(!ballInRange){
-      qi::os::msleep(50);
-      if(ballProxy.isNewData()){
-          no_newData = 0;
-          ballPosition = ballProxy.getPosition();
-          for(int i=0; i<ballPosition.size(); i++){
-              cout<< ballPosition[i] << ",";
-          }
+//     while(!ballInRange){
+//       qi::os::msleep(50);
+//       if(ballProxy.isNewData()){
+//           no_newData = 0;
+//           ballPosition = ballProxy.getPosition();
+//           for(int i=0; i<ballPosition.size(); i++){
+//               cout<< ballPosition[i] << ",";
+//           }
 
-          cout << endl;
-          ballInRange = walkToTarget(ballPosition[0], ballPosition[1]);
-      }
-      else{
-          no_newData++;
-          if(no_newData == 4){
-              no_newData = 0;
-              cout << "10stop" << endl;
-              stopMovement();
-          }
-      }
-    }
-}
+//           cout << endl;
+//           ballInRange = walkToTarget(ballPosition[0], ballPosition[1]);
+//       }
+//       else{
+//           no_newData++;
+//           if(no_newData == 4){
+//               no_newData = 0;
+//               cout << "10stop" << endl;
+//               stopMovement();
+//           }
+//       }
+//     }
+// }
 
-bool OnRedBallDetection::walkToTarget(float x, float y)
-{
-    float targetDistance, targetAngle;
-    float velocityX, velocityTheta;
-    std::string posture;
-    float maxSpeedFraction;
+// %%%%%%%%%%%%%%%%%%%%%%
 
-   // boost::shared_ptr<AL::ALRobotPostureProxy> posture_proxy =
-   // getParentBroker()->getSpecialisedProxy<AL::ALRobotPostureProxy>("ALRobotPosture");
-    std::string side = "Right";
-//    AL::ALValue names  = AL::ALValue::array("RHipRoll", "RHipPitch","RKneePitch","RAnklePitch","RAnkleRoll");
-//    AL::ALValue angles      = AL::ALValue::array(0.3f, -0.3f);
- //   float fractionMaxSpeed  = 0.1f;
-    targetAngle = atan2(y, x);
+// void OnRedBallDetection::reachBall(){
 
-    // Parameters init.
-    velocityX = 0.0;
-    velocityTheta = 0.0;
+//     //videoProxy.setActiveCamera(0);
 
-    cout << targetAngle*AL::Math::TO_DEG << endl;
+//     ballProxy.setWholeBodyOn(false);
+//     ballProxy.startTracker();
+
+
+//     vector<float> ballPosition;
+//     int no_newData = 0;
+
+//     bool ballInRange = false;
+
+//     while(!ballInRange){
+//       qi::os::msleep(50);
+//       if(ballProxy.isNewData()){
+//           no_newData = 0;
+//           ballPosition = ballProxy.getPosition();
+//           for(int i=0; i<ballPosition.size(); i++){
+//               cout<< ballPosition[i] << ",";
+//           }
+
+//           cout << endl;
+//           ballInRange = walkToTarget(ballPosition[0], ballPosition[1]);
+//       }
+//       else{
+//           no_newData++;
+//           if(no_newData == 4){
+//               no_newData = 0;
+//               cout << "10stop" << endl;
+//               stopMovement();
+//           }
+//       }
+//     }
+// }
+// bool OnRedBallDetection::walkToTarget(float x, float y)
+// {
+//     float targetDistance, targetAngle;
+//     float velocityX, velocityTheta;
+//     std::string posture;
+//     float maxSpeedFraction;
+
+//    // boost::shared_ptr<AL::ALRobotPostureProxy> posture_proxy =
+//    // getParentBroker()->getSpecialisedProxy<AL::ALRobotPostureProxy>("ALRobotPosture");
+//     std::string side = "Right";
+// //    AL::ALValue names  = AL::ALValue::array("RHipRoll", "RHipPitch","RKneePitch","RAnklePitch","RAnkleRoll");
+// //    AL::ALValue angles      = AL::ALValue::array(0.3f, -0.3f);
+//  //   float fractionMaxSpeed  = 0.1f;
+//     targetAngle = atan2(y, x);
+
+//     // Parameters init.
+//     velocityX = 0.0;
+//     velocityTheta = 0.0;
+
+//     cout << targetAngle*AL::Math::TO_DEG << endl;
    
-   //Control Feedback loop
-   // When the target angle is not in the fixed angle range [-17,17], change direction.
+//    //Control Feedback loop
+//    // When the target angle is not in the fixed angle range [-17,17], change direction.
    
-        if( targetAngle > 17*AL::Math::TO_RAD){
-               velocityTheta = 0.25;
-    }
-    else if(targetAngle < -17*AL::Math::TO_RAD){
-               velocityTheta = -0.25;
-    }
-    else{
-       targetDistance = sqrt( pow(x,2) +  pow(y,2) );
-       // Setting 10 cm distance to target.
-      if (targetDistance >= 0.8)
-       {
-         velocityX = 0.9;
-       }
-       else{
-      // Final position reached. Stop. 
-                   velocityX = 0.0;
-       //          posture = "StandZero";
-       //          maxSpeedFraction = 0.2f;
-       //          posture_proxy->applyPosture(posture, maxSpeedFraction);
-                    //wbKick(side);
-                   cout << "Ball reached" << endl;
+//         if( targetAngle > 17*AL::Math::TO_RAD){
+//                velocityTheta = 0.25;
+//     }
+//     else if(targetAngle < -17*AL::Math::TO_RAD){
+//                velocityTheta = -0.25;
+//     }
+//     else{
+//        targetDistance = sqrt( pow(x,2) +  pow(y,2) );
+//        // Setting 10 cm distance to target.
+//       if (targetDistance >= 0.10)
+//        {
+//          velocityX = 0.9;
+//        }
+//        else{
+//       // Final position reached. Stop. 
+//                    velocityX = 0.0;
+//        //          posture = "StandZero";
+//        //          maxSpeedFraction = 0.2f;
+//        //          posture_proxy->applyPosture(posture, maxSpeedFraction);
+//                     //wbKick(side);
+//                    cout << "Ball reached" << endl;
 
-       }
+//        }
 
-    }
-    motionProxy.setWalkTargetVelocity(velocityX, 0, velocityTheta, 1);
-    cout << x << "," << y << endl;
+//     }
+//     motionProxy.setWalkTargetVelocity(velocityX, 0, velocityTheta, 1);
+//     cout << x << "," << y << endl;
 
-    if( x < 0.45 && y < 0.05 && y > -0.05){
-        if(ballCounter > 5){
-            ballCounter = 0;
-            return true;
-        }
-        else{
-            ballCounter++;
-            return false;
-        }
-    }
-    else{
-        ballCounter = 0;
-        return false;
-    }
-}
+//     if( x < 0.45 && y < 0.05 && y > -0.05){
+//         if(ballCounter > 5){
+//             ballCounter = 0;
+//             return true;
+//         }
+//         else{
+//             ballCounter++;
+//             return false;
+//         }
+//     }
+//     else{
+//         ballCounter = 0;
+//         return false;
+//     }
+// }
+//%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
 void OnRedBallDetection::wbKick(std::string side){
+
 
   int axisMask = 63; 
   int space = 2;
@@ -254,12 +295,13 @@ void OnRedBallDetection::wbKick(std::string side){
   float dwy = 5.0*AL::Math::TO_RAD;
   float duration = 2.0f;
 
-  AL::ALValue times = AL::ALValue::array(1.0f, 1.3f, 1.8f);
+  AL::ALValue times = AL::ALValue::array(1.0f, 1.7f, 2.3f);
+  //AL::ALValue times = AL::ALValue::array(1.0f, 1.3f, 2.0f);
   bool isAbsolute = false;
 
   AL::ALValue targetList = AL::ALValue::array(
-    AL::ALValue::array(-dx/1.5,0.0f,dz, 0.0f, +dwy, 0.0f),
-    AL::ALValue::array(+dx,0.0f,dz, 0.0f, 0.0f, 0.0f),
+    AL::ALValue::array(-dx/1.7,0.0f,dz, 0.0f, +dwy/1.25, 0.0f),
+    AL::ALValue::array(+dx/1.7,0.0f,dz, 0.0f, 0.0f, 0.0f),
     AL::ALValue::array(0.0f,0.0f,0.0f, 0.0f, 0.0f, 0.0f)
     );
   bool isEnabled = true;
@@ -276,16 +318,27 @@ void OnRedBallDetection::wbKick(std::string side){
   bool isActive = true;
   motionProxy.wbEnableEffectorOptimization(effectorName, isActive);
 
-  supportLeg = "LLEG";
+  supportLeg = "LLeg";
   motionProxy.wbGoToBalance(supportLeg, duration);
 
   stateName = "Free";
-  supportLeg = "RLEG";
+  supportLeg = "RLeg";
   motionProxy.wbFootState(stateName, supportLeg);
 
-  effectorName = "RLEG";
+  effectorName = "RLeg";
+
+  // Parameters: 
+  //   chainName – Name of the chain. Could be: “Head”, “LArm”, “RArm”, “LLeg”, “RLeg”, “Torso”
+  //   space – Task space {FRAME_TORSO = 0, FRAME_WORLD = 1, FRAME_ROBOT = 2}.
+  //   path – Vector of 6D position arrays (x,y,z,wx,wy,wz) in meters and radians
+  //   axisMask – Axis mask. True for axes that you wish to control. e.g. 7 for position only, 56 for rotation only and 63 for both
+  //   durations – Vector of times in seconds corresponding to the path points
+  //   isAbsolute – If true, the movement is absolute else relative
+  
 
   motionProxy.positionInterpolation(effectorName, space, targetList,axisMask,times,isAbsolute);
+
+
 
   }
   else if (side == "Right"){
@@ -293,19 +346,19 @@ void OnRedBallDetection::wbKick(std::string side){
       bool isActive = false;
       motionProxy.wbEnableEffectorOptimization(effectorName,isActive);
 
-      supportLeg = "RLEG";
+      supportLeg = "RLeg";
       motionProxy.wbGoToBalance(supportLeg, duration);
       stateName = "Free";
-      supportLeg = "LLEG";
+      supportLeg = "LLeg";
       motionProxy.wbFootState(stateName,supportLeg);
 
-      effectorName = "LLEG";
+      effectorName = "LLeg";
       motionProxy.positionInterpolation(effectorName,space,targetList,axisMask,times,isAbsolute);
   }
   qi::os::msleep(1000);
   isEnabled = false;
   motionProxy.wbEnable(isEnabled);
-  //poseInit();
+  poseInit();
 
 
 }

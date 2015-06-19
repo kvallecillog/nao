@@ -1,21 +1,21 @@
 Determining if the pthread_create exist failed with the following output:
 Change Dir: /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec117416109/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec117416109.dir/build.make CMakeFiles/cmTryCompileExec117416109.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec2044115589/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2044115589.dir/build.make CMakeFiles/cmTryCompileExec2044115589.dir/build
 make[1]: Entering directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec117416109.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTryCompileExec117416109.dir/CheckSymbolExists.c.o   -c /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTryCompileExec117416109
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec117416109.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTryCompileExec117416109.dir/CheckSymbolExists.c.o  -o cmTryCompileExec117416109 -rdynamic 
-CMakeFiles/cmTryCompileExec117416109.dir/CheckSymbolExists.c.o: In function `main':
+Building C object CMakeFiles/cmTryCompileExec2044115589.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2044115589.dir/CheckSymbolExists.c.o   -c /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec2044115589
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2044115589.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2044115589.dir/CheckSymbolExists.c.o  -o cmTryCompileExec2044115589 -rdynamic 
+CMakeFiles/cmTryCompileExec2044115589.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-make[1]: *** [cmTryCompileExec117416109] Error 1
+make[1]: *** [cmTryCompileExec2044115589] Error 1
 make[1]: Leaving directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
-make: *** [cmTryCompileExec117416109/fast] Error 2
+make: *** [cmTryCompileExec2044115589/fast] Error 2
 
 File /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
@@ -35,40 +35,40 @@ int main(int argc, char** argv)
 Determining if the function pthread_create exists in the pthreads failed with the following output:
 Change Dir: /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec1805520031/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec1805520031.dir/build.make CMakeFiles/cmTryCompileExec1805520031.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec197671373/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec197671373.dir/build.make CMakeFiles/cmTryCompileExec197671373.dir/build
 make[1]: Entering directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec1805520031.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec1805520031.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
-Linking C executable cmTryCompileExec1805520031
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1805520031.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec1805520031.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1805520031 -rdynamic -lpthreads 
+Building C object CMakeFiles/cmTryCompileExec197671373.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec197671373.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec197671373
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec197671373.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec197671373.dir/CheckFunctionExists.c.o  -o cmTryCompileExec197671373 -rdynamic -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-make[1]: *** [cmTryCompileExec1805520031] Error 1
+make[1]: *** [cmTryCompileExec197671373] Error 1
 make[1]: Leaving directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
-make: *** [cmTryCompileExec1805520031/fast] Error 2
+make: *** [cmTryCompileExec197671373/fast] Error 2
 
 
 Determining if the pthread_create exist failed with the following output:
 Change Dir: /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec195674577/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec195674577.dir/build.make CMakeFiles/cmTryCompileExec195674577.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec3721848877/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3721848877.dir/build.make CMakeFiles/cmTryCompileExec3721848877.dir/build
 make[1]: Entering directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec195674577.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTryCompileExec195674577.dir/CheckSymbolExists.c.o   -c /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTryCompileExec195674577
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec195674577.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTryCompileExec195674577.dir/CheckSymbolExists.c.o  -o cmTryCompileExec195674577 -rdynamic 
-CMakeFiles/cmTryCompileExec195674577.dir/CheckSymbolExists.c.o: In function `main':
+Building C object CMakeFiles/cmTryCompileExec3721848877.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3721848877.dir/CheckSymbolExists.c.o   -c /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec3721848877
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3721848877.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3721848877.dir/CheckSymbolExists.c.o  -o cmTryCompileExec3721848877 -rdynamic 
+CMakeFiles/cmTryCompileExec3721848877.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-make[1]: *** [cmTryCompileExec195674577] Error 1
+make[1]: *** [cmTryCompileExec3721848877] Error 1
 make[1]: Leaving directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
-make: *** [cmTryCompileExec195674577/fast] Error 2
+make: *** [cmTryCompileExec3721848877/fast] Error 2
 
 File /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
@@ -88,40 +88,40 @@ int main(int argc, char** argv)
 Determining if the function pthread_create exists in the pthreads failed with the following output:
 Change Dir: /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec2400630397/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2400630397.dir/build.make CMakeFiles/cmTryCompileExec2400630397.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec2244107554/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2244107554.dir/build.make CMakeFiles/cmTryCompileExec2244107554.dir/build
 make[1]: Entering directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec2400630397.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec2400630397.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
-Linking C executable cmTryCompileExec2400630397
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2400630397.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec2400630397.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2400630397 -rdynamic -lpthreads 
+Building C object CMakeFiles/cmTryCompileExec2244107554.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec2244107554.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2244107554
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2244107554.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec2244107554.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2244107554 -rdynamic -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-make[1]: *** [cmTryCompileExec2400630397] Error 1
+make[1]: *** [cmTryCompileExec2244107554] Error 1
 make[1]: Leaving directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
-make: *** [cmTryCompileExec2400630397/fast] Error 2
+make: *** [cmTryCompileExec2244107554/fast] Error 2
 
 
 Determining if the pthread_create exist failed with the following output:
 Change Dir: /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec3940840341/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec3940840341.dir/build.make CMakeFiles/cmTryCompileExec3940840341.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec2460556318/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2460556318.dir/build.make CMakeFiles/cmTryCompileExec2460556318.dir/build
 make[1]: Entering directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec3940840341.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3940840341.dir/CheckSymbolExists.c.o   -c /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTryCompileExec3940840341
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3940840341.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTryCompileExec3940840341.dir/CheckSymbolExists.c.o  -o cmTryCompileExec3940840341 -rdynamic 
-CMakeFiles/cmTryCompileExec3940840341.dir/CheckSymbolExists.c.o: In function `main':
+Building C object CMakeFiles/cmTryCompileExec2460556318.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2460556318.dir/CheckSymbolExists.c.o   -c /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec2460556318
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2460556318.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2460556318.dir/CheckSymbolExists.c.o  -o cmTryCompileExec2460556318 -rdynamic 
+CMakeFiles/cmTryCompileExec2460556318.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-make[1]: *** [cmTryCompileExec3940840341] Error 1
+make[1]: *** [cmTryCompileExec2460556318] Error 1
 make[1]: Leaving directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
-make: *** [cmTryCompileExec3940840341/fast] Error 2
+make: *** [cmTryCompileExec2460556318/fast] Error 2
 
 File /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
@@ -141,40 +141,40 @@ int main(int argc, char** argv)
 Determining if the function pthread_create exists in the pthreads failed with the following output:
 Change Dir: /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec904911131/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec904911131.dir/build.make CMakeFiles/cmTryCompileExec904911131.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec2375556761/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2375556761.dir/build.make CMakeFiles/cmTryCompileExec2375556761.dir/build
 make[1]: Entering directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec904911131.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec904911131.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
-Linking C executable cmTryCompileExec904911131
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec904911131.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec904911131.dir/CheckFunctionExists.c.o  -o cmTryCompileExec904911131 -rdynamic -lpthreads 
+Building C object CMakeFiles/cmTryCompileExec2375556761.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec2375556761.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2375556761
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2375556761.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec2375556761.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2375556761 -rdynamic -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-make[1]: *** [cmTryCompileExec904911131] Error 1
+make[1]: *** [cmTryCompileExec2375556761] Error 1
 make[1]: Leaving directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
-make: *** [cmTryCompileExec904911131/fast] Error 2
+make: *** [cmTryCompileExec2375556761/fast] Error 2
 
 
 Determining if the pthread_create exist failed with the following output:
 Change Dir: /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec2767969346/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2767969346.dir/build.make CMakeFiles/cmTryCompileExec2767969346.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec280785548/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec280785548.dir/build.make CMakeFiles/cmTryCompileExec280785548.dir/build
 make[1]: Entering directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec2767969346.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2767969346.dir/CheckSymbolExists.c.o   -c /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTryCompileExec2767969346
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2767969346.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTryCompileExec2767969346.dir/CheckSymbolExists.c.o  -o cmTryCompileExec2767969346 -rdynamic 
-CMakeFiles/cmTryCompileExec2767969346.dir/CheckSymbolExists.c.o: In function `main':
+Building C object CMakeFiles/cmTryCompileExec280785548.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec280785548.dir/CheckSymbolExists.c.o   -c /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec280785548
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec280785548.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec280785548.dir/CheckSymbolExists.c.o  -o cmTryCompileExec280785548 -rdynamic 
+CMakeFiles/cmTryCompileExec280785548.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-make[1]: *** [cmTryCompileExec2767969346] Error 1
+make[1]: *** [cmTryCompileExec280785548] Error 1
 make[1]: Leaving directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
-make: *** [cmTryCompileExec2767969346/fast] Error 2
+make: *** [cmTryCompileExec280785548/fast] Error 2
 
 File /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
@@ -194,40 +194,40 @@ int main(int argc, char** argv)
 Determining if the function pthread_create exists in the pthreads failed with the following output:
 Change Dir: /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec3012400145/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec3012400145.dir/build.make CMakeFiles/cmTryCompileExec3012400145.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec360320177/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec360320177.dir/build.make CMakeFiles/cmTryCompileExec360320177.dir/build
 make[1]: Entering directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec3012400145.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec3012400145.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
-Linking C executable cmTryCompileExec3012400145
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3012400145.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec3012400145.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3012400145 -rdynamic -lpthreads 
+Building C object CMakeFiles/cmTryCompileExec360320177.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec360320177.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec360320177
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec360320177.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec360320177.dir/CheckFunctionExists.c.o  -o cmTryCompileExec360320177 -rdynamic -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-make[1]: *** [cmTryCompileExec3012400145] Error 1
+make[1]: *** [cmTryCompileExec360320177] Error 1
 make[1]: Leaving directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
-make: *** [cmTryCompileExec3012400145/fast] Error 2
+make: *** [cmTryCompileExec360320177/fast] Error 2
 
 
 Determining if the pthread_create exist failed with the following output:
 Change Dir: /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec3384440233/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec3384440233.dir/build.make CMakeFiles/cmTryCompileExec3384440233.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec1647072837/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1647072837.dir/build.make CMakeFiles/cmTryCompileExec1647072837.dir/build
 make[1]: Entering directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec3384440233.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3384440233.dir/CheckSymbolExists.c.o   -c /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTryCompileExec3384440233
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3384440233.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTryCompileExec3384440233.dir/CheckSymbolExists.c.o  -o cmTryCompileExec3384440233 -rdynamic 
-CMakeFiles/cmTryCompileExec3384440233.dir/CheckSymbolExists.c.o: In function `main':
+Building C object CMakeFiles/cmTryCompileExec1647072837.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1647072837.dir/CheckSymbolExists.c.o   -c /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec1647072837
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1647072837.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1647072837.dir/CheckSymbolExists.c.o  -o cmTryCompileExec1647072837 -rdynamic 
+CMakeFiles/cmTryCompileExec1647072837.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-make[1]: *** [cmTryCompileExec3384440233] Error 1
 make[1]: Leaving directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
-make: *** [cmTryCompileExec3384440233/fast] Error 2
+make[1]: *** [cmTryCompileExec1647072837] Error 1
+make: *** [cmTryCompileExec1647072837/fast] Error 2
 
 File /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
@@ -247,40 +247,40 @@ int main(int argc, char** argv)
 Determining if the function pthread_create exists in the pthreads failed with the following output:
 Change Dir: /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec2199388253/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2199388253.dir/build.make CMakeFiles/cmTryCompileExec2199388253.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec4187103354/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4187103354.dir/build.make CMakeFiles/cmTryCompileExec4187103354.dir/build
 make[1]: Entering directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec2199388253.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec2199388253.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
-Linking C executable cmTryCompileExec2199388253
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2199388253.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec2199388253.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2199388253 -rdynamic -lpthreads 
+Building C object CMakeFiles/cmTryCompileExec4187103354.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec4187103354.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec4187103354
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4187103354.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec4187103354.dir/CheckFunctionExists.c.o  -o cmTryCompileExec4187103354 -rdynamic -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-make[1]: *** [cmTryCompileExec2199388253] Error 1
+make[1]: *** [cmTryCompileExec4187103354] Error 1
 make[1]: Leaving directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
-make: *** [cmTryCompileExec2199388253/fast] Error 2
+make: *** [cmTryCompileExec4187103354/fast] Error 2
 
 
 Determining if the pthread_create exist failed with the following output:
 Change Dir: /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec679809132/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec679809132.dir/build.make CMakeFiles/cmTryCompileExec679809132.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec631071402/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec631071402.dir/build.make CMakeFiles/cmTryCompileExec631071402.dir/build
 make[1]: Entering directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec679809132.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTryCompileExec679809132.dir/CheckSymbolExists.c.o   -c /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTryCompileExec679809132
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec679809132.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTryCompileExec679809132.dir/CheckSymbolExists.c.o  -o cmTryCompileExec679809132 -rdynamic 
-CMakeFiles/cmTryCompileExec679809132.dir/CheckSymbolExists.c.o: In function `main':
+Building C object CMakeFiles/cmTryCompileExec631071402.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec631071402.dir/CheckSymbolExists.c.o   -c /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec631071402
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec631071402.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec631071402.dir/CheckSymbolExists.c.o  -o cmTryCompileExec631071402 -rdynamic 
+CMakeFiles/cmTryCompileExec631071402.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-make[1]: *** [cmTryCompileExec679809132] Error 1
+make[1]: *** [cmTryCompileExec631071402] Error 1
 make[1]: Leaving directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
-make: *** [cmTryCompileExec679809132/fast] Error 2
+make: *** [cmTryCompileExec631071402/fast] Error 2
 
 File /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
@@ -300,40 +300,40 @@ int main(int argc, char** argv)
 Determining if the function pthread_create exists in the pthreads failed with the following output:
 Change Dir: /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec2051244987/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2051244987.dir/build.make CMakeFiles/cmTryCompileExec2051244987.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec3535313499/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3535313499.dir/build.make CMakeFiles/cmTryCompileExec3535313499.dir/build
 make[1]: Entering directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec2051244987.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec2051244987.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
-Linking C executable cmTryCompileExec2051244987
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2051244987.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec2051244987.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2051244987 -rdynamic -lpthreads 
+Building C object CMakeFiles/cmTryCompileExec3535313499.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec3535313499.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3535313499
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3535313499.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec3535313499.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3535313499 -rdynamic -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-make[1]: *** [cmTryCompileExec2051244987] Error 1
+make[1]: *** [cmTryCompileExec3535313499] Error 1
 make[1]: Leaving directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
-make: *** [cmTryCompileExec2051244987/fast] Error 2
+make: *** [cmTryCompileExec3535313499/fast] Error 2
 
 
 Determining if the pthread_create exist failed with the following output:
 Change Dir: /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec1621896410/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec1621896410.dir/build.make CMakeFiles/cmTryCompileExec1621896410.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec4125278781/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4125278781.dir/build.make CMakeFiles/cmTryCompileExec4125278781.dir/build
 make[1]: Entering directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec1621896410.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1621896410.dir/CheckSymbolExists.c.o   -c /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTryCompileExec1621896410
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1621896410.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTryCompileExec1621896410.dir/CheckSymbolExists.c.o  -o cmTryCompileExec1621896410 -rdynamic 
-CMakeFiles/cmTryCompileExec1621896410.dir/CheckSymbolExists.c.o: In function `main':
+Building C object CMakeFiles/cmTryCompileExec4125278781.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec4125278781.dir/CheckSymbolExists.c.o   -c /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec4125278781
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4125278781.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec4125278781.dir/CheckSymbolExists.c.o  -o cmTryCompileExec4125278781 -rdynamic 
+CMakeFiles/cmTryCompileExec4125278781.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-make[1]: *** [cmTryCompileExec1621896410] Error 1
+make[1]: *** [cmTryCompileExec4125278781] Error 1
 make[1]: Leaving directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
-make: *** [cmTryCompileExec1621896410/fast] Error 2
+make: *** [cmTryCompileExec4125278781/fast] Error 2
 
 File /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
@@ -353,40 +353,40 @@ int main(int argc, char** argv)
 Determining if the function pthread_create exists in the pthreads failed with the following output:
 Change Dir: /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec3766694073/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec3766694073.dir/build.make CMakeFiles/cmTryCompileExec3766694073.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec1247126902/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1247126902.dir/build.make CMakeFiles/cmTryCompileExec1247126902.dir/build
 make[1]: Entering directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec3766694073.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec3766694073.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
-Linking C executable cmTryCompileExec3766694073
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3766694073.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec3766694073.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3766694073 -rdynamic -lpthreads 
+Building C object CMakeFiles/cmTryCompileExec1247126902.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec1247126902.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1247126902
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1247126902.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec1247126902.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1247126902 -rdynamic -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-make[1]: *** [cmTryCompileExec3766694073] Error 1
+make[1]: *** [cmTryCompileExec1247126902] Error 1
 make[1]: Leaving directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
-make: *** [cmTryCompileExec3766694073/fast] Error 2
+make: *** [cmTryCompileExec1247126902/fast] Error 2
 
 
 Determining if the pthread_create exist failed with the following output:
 Change Dir: /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec410166347/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec410166347.dir/build.make CMakeFiles/cmTryCompileExec410166347.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec1710785066/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1710785066.dir/build.make CMakeFiles/cmTryCompileExec1710785066.dir/build
 make[1]: Entering directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec410166347.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTryCompileExec410166347.dir/CheckSymbolExists.c.o   -c /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTryCompileExec410166347
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec410166347.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTryCompileExec410166347.dir/CheckSymbolExists.c.o  -o cmTryCompileExec410166347 -rdynamic 
-CMakeFiles/cmTryCompileExec410166347.dir/CheckSymbolExists.c.o: In function `main':
+Building C object CMakeFiles/cmTryCompileExec1710785066.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1710785066.dir/CheckSymbolExists.c.o   -c /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec1710785066
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1710785066.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1710785066.dir/CheckSymbolExists.c.o  -o cmTryCompileExec1710785066 -rdynamic 
+CMakeFiles/cmTryCompileExec1710785066.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-make[1]: *** [cmTryCompileExec410166347] Error 1
+make[1]: *** [cmTryCompileExec1710785066] Error 1
 make[1]: Leaving directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
-make: *** [cmTryCompileExec410166347/fast] Error 2
+make: *** [cmTryCompileExec1710785066/fast] Error 2
 
 File /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
@@ -406,40 +406,40 @@ int main(int argc, char** argv)
 Determining if the function pthread_create exists in the pthreads failed with the following output:
 Change Dir: /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec1496282388/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec1496282388.dir/build.make CMakeFiles/cmTryCompileExec1496282388.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec1782408178/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1782408178.dir/build.make CMakeFiles/cmTryCompileExec1782408178.dir/build
 make[1]: Entering directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec1496282388.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec1496282388.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
-Linking C executable cmTryCompileExec1496282388
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1496282388.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec1496282388.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1496282388 -rdynamic -lpthreads 
+Building C object CMakeFiles/cmTryCompileExec1782408178.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec1782408178.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1782408178
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1782408178.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec1782408178.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1782408178 -rdynamic -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-make[1]: *** [cmTryCompileExec1496282388] Error 1
+make[1]: *** [cmTryCompileExec1782408178] Error 1
 make[1]: Leaving directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
-make: *** [cmTryCompileExec1496282388/fast] Error 2
+make: *** [cmTryCompileExec1782408178/fast] Error 2
 
 
 Determining if the pthread_create exist failed with the following output:
 Change Dir: /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec3693833824/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec3693833824.dir/build.make CMakeFiles/cmTryCompileExec3693833824.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec871551093/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec871551093.dir/build.make CMakeFiles/cmTryCompileExec871551093.dir/build
 make[1]: Entering directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec3693833824.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3693833824.dir/CheckSymbolExists.c.o   -c /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTryCompileExec3693833824
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3693833824.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTryCompileExec3693833824.dir/CheckSymbolExists.c.o  -o cmTryCompileExec3693833824 -rdynamic 
-CMakeFiles/cmTryCompileExec3693833824.dir/CheckSymbolExists.c.o: In function `main':
+Building C object CMakeFiles/cmTryCompileExec871551093.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec871551093.dir/CheckSymbolExists.c.o   -c /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec871551093
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec871551093.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec871551093.dir/CheckSymbolExists.c.o  -o cmTryCompileExec871551093 -rdynamic 
+CMakeFiles/cmTryCompileExec871551093.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-make[1]: *** [cmTryCompileExec3693833824] Error 1
+make[1]: *** [cmTryCompileExec871551093] Error 1
 make[1]: Leaving directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
-make: *** [cmTryCompileExec3693833824/fast] Error 2
+make: *** [cmTryCompileExec871551093/fast] Error 2
 
 File /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
@@ -459,40 +459,40 @@ int main(int argc, char** argv)
 Determining if the function pthread_create exists in the pthreads failed with the following output:
 Change Dir: /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec119988211/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec119988211.dir/build.make CMakeFiles/cmTryCompileExec119988211.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec3824313453/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3824313453.dir/build.make CMakeFiles/cmTryCompileExec3824313453.dir/build
 make[1]: Entering directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec119988211.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec119988211.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
-Linking C executable cmTryCompileExec119988211
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec119988211.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec119988211.dir/CheckFunctionExists.c.o  -o cmTryCompileExec119988211 -rdynamic -lpthreads 
+Building C object CMakeFiles/cmTryCompileExec3824313453.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec3824313453.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3824313453
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3824313453.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec3824313453.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3824313453 -rdynamic -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-make[1]: *** [cmTryCompileExec119988211] Error 1
+make[1]: *** [cmTryCompileExec3824313453] Error 1
 make[1]: Leaving directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
-make: *** [cmTryCompileExec119988211/fast] Error 2
+make: *** [cmTryCompileExec3824313453/fast] Error 2
 
 
 Determining if the pthread_create exist failed with the following output:
 Change Dir: /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec2419936348/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2419936348.dir/build.make CMakeFiles/cmTryCompileExec2419936348.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec3163882177/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3163882177.dir/build.make CMakeFiles/cmTryCompileExec3163882177.dir/build
 make[1]: Entering directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec2419936348.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2419936348.dir/CheckSymbolExists.c.o   -c /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTryCompileExec2419936348
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2419936348.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTryCompileExec2419936348.dir/CheckSymbolExists.c.o  -o cmTryCompileExec2419936348 -rdynamic 
-CMakeFiles/cmTryCompileExec2419936348.dir/CheckSymbolExists.c.o: In function `main':
+Building C object CMakeFiles/cmTryCompileExec3163882177.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3163882177.dir/CheckSymbolExists.c.o   -c /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec3163882177
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3163882177.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3163882177.dir/CheckSymbolExists.c.o  -o cmTryCompileExec3163882177 -rdynamic 
+CMakeFiles/cmTryCompileExec3163882177.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-make[1]: *** [cmTryCompileExec2419936348] Error 1
+make[1]: *** [cmTryCompileExec3163882177] Error 1
 make[1]: Leaving directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
-make: *** [cmTryCompileExec2419936348/fast] Error 2
+make: *** [cmTryCompileExec3163882177/fast] Error 2
 
 File /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
@@ -512,40 +512,40 @@ int main(int argc, char** argv)
 Determining if the function pthread_create exists in the pthreads failed with the following output:
 Change Dir: /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec373007420/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec373007420.dir/build.make CMakeFiles/cmTryCompileExec373007420.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec3387489866/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3387489866.dir/build.make CMakeFiles/cmTryCompileExec3387489866.dir/build
 make[1]: Entering directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec373007420.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec373007420.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
-Linking C executable cmTryCompileExec373007420
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec373007420.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec373007420.dir/CheckFunctionExists.c.o  -o cmTryCompileExec373007420 -rdynamic -lpthreads 
+Building C object CMakeFiles/cmTryCompileExec3387489866.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec3387489866.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3387489866
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3387489866.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec3387489866.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3387489866 -rdynamic -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-make[1]: *** [cmTryCompileExec373007420] Error 1
+make[1]: *** [cmTryCompileExec3387489866] Error 1
 make[1]: Leaving directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
-make: *** [cmTryCompileExec373007420/fast] Error 2
+make: *** [cmTryCompileExec3387489866/fast] Error 2
 
 
 Determining if the pthread_create exist failed with the following output:
 Change Dir: /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec3441723708/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec3441723708.dir/build.make CMakeFiles/cmTryCompileExec3441723708.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec1877635532/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1877635532.dir/build.make CMakeFiles/cmTryCompileExec1877635532.dir/build
 make[1]: Entering directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec3441723708.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3441723708.dir/CheckSymbolExists.c.o   -c /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTryCompileExec3441723708
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3441723708.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTryCompileExec3441723708.dir/CheckSymbolExists.c.o  -o cmTryCompileExec3441723708 -rdynamic 
-CMakeFiles/cmTryCompileExec3441723708.dir/CheckSymbolExists.c.o: In function `main':
+Building C object CMakeFiles/cmTryCompileExec1877635532.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1877635532.dir/CheckSymbolExists.c.o   -c /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec1877635532
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1877635532.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1877635532.dir/CheckSymbolExists.c.o  -o cmTryCompileExec1877635532 -rdynamic 
+CMakeFiles/cmTryCompileExec1877635532.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-make[1]: *** [cmTryCompileExec3441723708] Error 1
+make[1]: *** [cmTryCompileExec1877635532] Error 1
 make[1]: Leaving directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
-make: *** [cmTryCompileExec3441723708/fast] Error 2
+make: *** [cmTryCompileExec1877635532/fast] Error 2
 
 File /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
@@ -565,40 +565,40 @@ int main(int argc, char** argv)
 Determining if the function pthread_create exists in the pthreads failed with the following output:
 Change Dir: /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec2379643932/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2379643932.dir/build.make CMakeFiles/cmTryCompileExec2379643932.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec3625391682/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3625391682.dir/build.make CMakeFiles/cmTryCompileExec3625391682.dir/build
 make[1]: Entering directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec2379643932.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec2379643932.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
-Linking C executable cmTryCompileExec2379643932
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2379643932.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec2379643932.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2379643932 -rdynamic -lpthreads 
+Building C object CMakeFiles/cmTryCompileExec3625391682.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec3625391682.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3625391682
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3625391682.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec3625391682.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3625391682 -rdynamic -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-make[1]: *** [cmTryCompileExec2379643932] Error 1
+make[1]: *** [cmTryCompileExec3625391682] Error 1
 make[1]: Leaving directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
-make: *** [cmTryCompileExec2379643932/fast] Error 2
+make: *** [cmTryCompileExec3625391682/fast] Error 2
 
 
 Determining if the pthread_create exist failed with the following output:
 Change Dir: /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec1908403450/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec1908403450.dir/build.make CMakeFiles/cmTryCompileExec1908403450.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec962795041/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec962795041.dir/build.make CMakeFiles/cmTryCompileExec962795041.dir/build
 make[1]: Entering directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec1908403450.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1908403450.dir/CheckSymbolExists.c.o   -c /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTryCompileExec1908403450
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1908403450.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTryCompileExec1908403450.dir/CheckSymbolExists.c.o  -o cmTryCompileExec1908403450 -rdynamic 
-CMakeFiles/cmTryCompileExec1908403450.dir/CheckSymbolExists.c.o: In function `main':
+Building C object CMakeFiles/cmTryCompileExec962795041.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec962795041.dir/CheckSymbolExists.c.o   -c /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec962795041
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec962795041.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec962795041.dir/CheckSymbolExists.c.o  -o cmTryCompileExec962795041 -rdynamic 
+CMakeFiles/cmTryCompileExec962795041.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-make[1]: *** [cmTryCompileExec1908403450] Error 1
+make[1]: *** [cmTryCompileExec962795041] Error 1
 make[1]: Leaving directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
-make: *** [cmTryCompileExec1908403450/fast] Error 2
+make: *** [cmTryCompileExec962795041/fast] Error 2
 
 File /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
@@ -618,40 +618,40 @@ int main(int argc, char** argv)
 Determining if the function pthread_create exists in the pthreads failed with the following output:
 Change Dir: /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec2844111576/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2844111576.dir/build.make CMakeFiles/cmTryCompileExec2844111576.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec2326468768/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2326468768.dir/build.make CMakeFiles/cmTryCompileExec2326468768.dir/build
 make[1]: Entering directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec2844111576.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec2844111576.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
-Linking C executable cmTryCompileExec2844111576
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2844111576.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec2844111576.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2844111576 -rdynamic -lpthreads 
+Building C object CMakeFiles/cmTryCompileExec2326468768.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec2326468768.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2326468768
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2326468768.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec2326468768.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2326468768 -rdynamic -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-make[1]: *** [cmTryCompileExec2844111576] Error 1
+make[1]: *** [cmTryCompileExec2326468768] Error 1
 make[1]: Leaving directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
-make: *** [cmTryCompileExec2844111576/fast] Error 2
+make: *** [cmTryCompileExec2326468768/fast] Error 2
 
 
 Determining if the pthread_create exist failed with the following output:
 Change Dir: /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec2189625110/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2189625110.dir/build.make CMakeFiles/cmTryCompileExec2189625110.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec2906714996/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2906714996.dir/build.make CMakeFiles/cmTryCompileExec2906714996.dir/build
 make[1]: Entering directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec2189625110.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2189625110.dir/CheckSymbolExists.c.o   -c /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTryCompileExec2189625110
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2189625110.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTryCompileExec2189625110.dir/CheckSymbolExists.c.o  -o cmTryCompileExec2189625110 -rdynamic 
-CMakeFiles/cmTryCompileExec2189625110.dir/CheckSymbolExists.c.o: In function `main':
+Building C object CMakeFiles/cmTryCompileExec2906714996.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2906714996.dir/CheckSymbolExists.c.o   -c /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec2906714996
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2906714996.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2906714996.dir/CheckSymbolExists.c.o  -o cmTryCompileExec2906714996 -rdynamic 
+CMakeFiles/cmTryCompileExec2906714996.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-make[1]: *** [cmTryCompileExec2189625110] Error 1
+make[1]: *** [cmTryCompileExec2906714996] Error 1
 make[1]: Leaving directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
-make: *** [cmTryCompileExec2189625110/fast] Error 2
+make: *** [cmTryCompileExec2906714996/fast] Error 2
 
 File /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
@@ -671,40 +671,40 @@ int main(int argc, char** argv)
 Determining if the function pthread_create exists in the pthreads failed with the following output:
 Change Dir: /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec2007994665/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2007994665.dir/build.make CMakeFiles/cmTryCompileExec2007994665.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec61527094/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec61527094.dir/build.make CMakeFiles/cmTryCompileExec61527094.dir/build
 make[1]: Entering directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec2007994665.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec2007994665.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
-Linking C executable cmTryCompileExec2007994665
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2007994665.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec2007994665.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2007994665 -rdynamic -lpthreads 
+Building C object CMakeFiles/cmTryCompileExec61527094.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec61527094.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec61527094
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec61527094.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec61527094.dir/CheckFunctionExists.c.o  -o cmTryCompileExec61527094 -rdynamic -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-make[1]: *** [cmTryCompileExec2007994665] Error 1
+make[1]: *** [cmTryCompileExec61527094] Error 1
 make[1]: Leaving directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
-make: *** [cmTryCompileExec2007994665/fast] Error 2
+make: *** [cmTryCompileExec61527094/fast] Error 2
 
 
 Determining if the pthread_create exist failed with the following output:
 Change Dir: /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec3885721060/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec3885721060.dir/build.make CMakeFiles/cmTryCompileExec3885721060.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec2291531302/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2291531302.dir/build.make CMakeFiles/cmTryCompileExec2291531302.dir/build
 make[1]: Entering directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec3885721060.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3885721060.dir/CheckSymbolExists.c.o   -c /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTryCompileExec3885721060
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3885721060.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTryCompileExec3885721060.dir/CheckSymbolExists.c.o  -o cmTryCompileExec3885721060 -rdynamic 
-CMakeFiles/cmTryCompileExec3885721060.dir/CheckSymbolExists.c.o: In function `main':
+Building C object CMakeFiles/cmTryCompileExec2291531302.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2291531302.dir/CheckSymbolExists.c.o   -c /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec2291531302
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2291531302.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2291531302.dir/CheckSymbolExists.c.o  -o cmTryCompileExec2291531302 -rdynamic 
+CMakeFiles/cmTryCompileExec2291531302.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-make[1]: *** [cmTryCompileExec3885721060] Error 1
+make[1]: *** [cmTryCompileExec2291531302] Error 1
 make[1]: Leaving directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
-make: *** [cmTryCompileExec3885721060/fast] Error 2
+make: *** [cmTryCompileExec2291531302/fast] Error 2
 
 File /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
@@ -724,40 +724,40 @@ int main(int argc, char** argv)
 Determining if the function pthread_create exists in the pthreads failed with the following output:
 Change Dir: /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec114659708/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec114659708.dir/build.make CMakeFiles/cmTryCompileExec114659708.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec1258705661/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1258705661.dir/build.make CMakeFiles/cmTryCompileExec1258705661.dir/build
 make[1]: Entering directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec114659708.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec114659708.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
-Linking C executable cmTryCompileExec114659708
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec114659708.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec114659708.dir/CheckFunctionExists.c.o  -o cmTryCompileExec114659708 -rdynamic -lpthreads 
+Building C object CMakeFiles/cmTryCompileExec1258705661.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec1258705661.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1258705661
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1258705661.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec1258705661.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1258705661 -rdynamic -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-make[1]: *** [cmTryCompileExec114659708] Error 1
+make[1]: *** [cmTryCompileExec1258705661] Error 1
 make[1]: Leaving directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
-make: *** [cmTryCompileExec114659708/fast] Error 2
+make: *** [cmTryCompileExec1258705661/fast] Error 2
 
 
 Determining if the pthread_create exist failed with the following output:
 Change Dir: /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec2408318421/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2408318421.dir/build.make CMakeFiles/cmTryCompileExec2408318421.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec2661255953/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2661255953.dir/build.make CMakeFiles/cmTryCompileExec2661255953.dir/build
 make[1]: Entering directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec2408318421.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2408318421.dir/CheckSymbolExists.c.o   -c /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTryCompileExec2408318421
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2408318421.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTryCompileExec2408318421.dir/CheckSymbolExists.c.o  -o cmTryCompileExec2408318421 -rdynamic 
-CMakeFiles/cmTryCompileExec2408318421.dir/CheckSymbolExists.c.o: In function `main':
+Building C object CMakeFiles/cmTryCompileExec2661255953.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2661255953.dir/CheckSymbolExists.c.o   -c /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec2661255953
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2661255953.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2661255953.dir/CheckSymbolExists.c.o  -o cmTryCompileExec2661255953 -rdynamic 
+CMakeFiles/cmTryCompileExec2661255953.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-make[1]: *** [cmTryCompileExec2408318421] Error 1
+make[1]: *** [cmTryCompileExec2661255953] Error 1
 make[1]: Leaving directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
-make: *** [cmTryCompileExec2408318421/fast] Error 2
+make: *** [cmTryCompileExec2661255953/fast] Error 2
 
 File /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
@@ -777,40 +777,40 @@ int main(int argc, char** argv)
 Determining if the function pthread_create exists in the pthreads failed with the following output:
 Change Dir: /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec2604188360/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2604188360.dir/build.make CMakeFiles/cmTryCompileExec2604188360.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec3114946696/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3114946696.dir/build.make CMakeFiles/cmTryCompileExec3114946696.dir/build
 make[1]: Entering directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec2604188360.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec2604188360.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
-Linking C executable cmTryCompileExec2604188360
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2604188360.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec2604188360.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2604188360 -rdynamic -lpthreads 
+Building C object CMakeFiles/cmTryCompileExec3114946696.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec3114946696.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3114946696
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3114946696.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec3114946696.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3114946696 -rdynamic -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-make[1]: *** [cmTryCompileExec2604188360] Error 1
+make[1]: *** [cmTryCompileExec3114946696] Error 1
 make[1]: Leaving directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
-make: *** [cmTryCompileExec2604188360/fast] Error 2
+make: *** [cmTryCompileExec3114946696/fast] Error 2
 
 
 Determining if the pthread_create exist failed with the following output:
 Change Dir: /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec993705878/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec993705878.dir/build.make CMakeFiles/cmTryCompileExec993705878.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec706347698/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec706347698.dir/build.make CMakeFiles/cmTryCompileExec706347698.dir/build
 make[1]: Entering directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec993705878.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTryCompileExec993705878.dir/CheckSymbolExists.c.o   -c /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTryCompileExec993705878
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec993705878.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTryCompileExec993705878.dir/CheckSymbolExists.c.o  -o cmTryCompileExec993705878 -rdynamic 
-CMakeFiles/cmTryCompileExec993705878.dir/CheckSymbolExists.c.o: In function `main':
+Building C object CMakeFiles/cmTryCompileExec706347698.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec706347698.dir/CheckSymbolExists.c.o   -c /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec706347698
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec706347698.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec706347698.dir/CheckSymbolExists.c.o  -o cmTryCompileExec706347698 -rdynamic 
+CMakeFiles/cmTryCompileExec706347698.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-make[1]: *** [cmTryCompileExec993705878] Error 1
+make[1]: *** [cmTryCompileExec706347698] Error 1
 make[1]: Leaving directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
-make: *** [cmTryCompileExec993705878/fast] Error 2
+make: *** [cmTryCompileExec706347698/fast] Error 2
 
 File /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
@@ -830,40 +830,40 @@ int main(int argc, char** argv)
 Determining if the function pthread_create exists in the pthreads failed with the following output:
 Change Dir: /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec2579888980/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2579888980.dir/build.make CMakeFiles/cmTryCompileExec2579888980.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec717194292/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec717194292.dir/build.make CMakeFiles/cmTryCompileExec717194292.dir/build
 make[1]: Entering directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec2579888980.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec2579888980.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
-Linking C executable cmTryCompileExec2579888980
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2579888980.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec2579888980.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2579888980 -rdynamic -lpthreads 
+Building C object CMakeFiles/cmTryCompileExec717194292.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec717194292.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec717194292
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec717194292.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec717194292.dir/CheckFunctionExists.c.o  -o cmTryCompileExec717194292 -rdynamic -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-make[1]: *** [cmTryCompileExec2579888980] Error 1
+make[1]: *** [cmTryCompileExec717194292] Error 1
 make[1]: Leaving directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
-make: *** [cmTryCompileExec2579888980/fast] Error 2
+make: *** [cmTryCompileExec717194292/fast] Error 2
 
 
 Determining if the pthread_create exist failed with the following output:
 Change Dir: /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec4147888638/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec4147888638.dir/build.make CMakeFiles/cmTryCompileExec4147888638.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec3890877768/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3890877768.dir/build.make CMakeFiles/cmTryCompileExec3890877768.dir/build
 make[1]: Entering directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec4147888638.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTryCompileExec4147888638.dir/CheckSymbolExists.c.o   -c /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTryCompileExec4147888638
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4147888638.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTryCompileExec4147888638.dir/CheckSymbolExists.c.o  -o cmTryCompileExec4147888638 -rdynamic 
-CMakeFiles/cmTryCompileExec4147888638.dir/CheckSymbolExists.c.o: In function `main':
+Building C object CMakeFiles/cmTryCompileExec3890877768.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3890877768.dir/CheckSymbolExists.c.o   -c /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec3890877768
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3890877768.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3890877768.dir/CheckSymbolExists.c.o  -o cmTryCompileExec3890877768 -rdynamic 
+CMakeFiles/cmTryCompileExec3890877768.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-make[1]: *** [cmTryCompileExec4147888638] Error 1
+make[1]: *** [cmTryCompileExec3890877768] Error 1
 make[1]: Leaving directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
-make: *** [cmTryCompileExec4147888638/fast] Error 2
+make: *** [cmTryCompileExec3890877768/fast] Error 2
 
 File /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
@@ -883,40 +883,40 @@ int main(int argc, char** argv)
 Determining if the function pthread_create exists in the pthreads failed with the following output:
 Change Dir: /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec276323232/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec276323232.dir/build.make CMakeFiles/cmTryCompileExec276323232.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec3486807505/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3486807505.dir/build.make CMakeFiles/cmTryCompileExec3486807505.dir/build
 make[1]: Entering directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec276323232.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec276323232.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
-Linking C executable cmTryCompileExec276323232
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec276323232.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec276323232.dir/CheckFunctionExists.c.o  -o cmTryCompileExec276323232 -rdynamic -lpthreads 
+Building C object CMakeFiles/cmTryCompileExec3486807505.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec3486807505.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3486807505
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3486807505.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec3486807505.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3486807505 -rdynamic -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-make[1]: *** [cmTryCompileExec276323232] Error 1
+make[1]: *** [cmTryCompileExec3486807505] Error 1
 make[1]: Leaving directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
-make: *** [cmTryCompileExec276323232/fast] Error 2
+make: *** [cmTryCompileExec3486807505/fast] Error 2
 
 
 Determining if the pthread_create exist failed with the following output:
 Change Dir: /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec2302168671/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2302168671.dir/build.make CMakeFiles/cmTryCompileExec2302168671.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec3256172424/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3256172424.dir/build.make CMakeFiles/cmTryCompileExec3256172424.dir/build
 make[1]: Entering directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec2302168671.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2302168671.dir/CheckSymbolExists.c.o   -c /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTryCompileExec2302168671
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2302168671.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTryCompileExec2302168671.dir/CheckSymbolExists.c.o  -o cmTryCompileExec2302168671 -rdynamic 
-CMakeFiles/cmTryCompileExec2302168671.dir/CheckSymbolExists.c.o: In function `main':
+Building C object CMakeFiles/cmTryCompileExec3256172424.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3256172424.dir/CheckSymbolExists.c.o   -c /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec3256172424
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3256172424.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3256172424.dir/CheckSymbolExists.c.o  -o cmTryCompileExec3256172424 -rdynamic 
+CMakeFiles/cmTryCompileExec3256172424.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-make[1]: *** [cmTryCompileExec2302168671] Error 1
+make[1]: *** [cmTryCompileExec3256172424] Error 1
 make[1]: Leaving directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
-make: *** [cmTryCompileExec2302168671/fast] Error 2
+make: *** [cmTryCompileExec3256172424/fast] Error 2
 
 File /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
@@ -936,40 +936,40 @@ int main(int argc, char** argv)
 Determining if the function pthread_create exists in the pthreads failed with the following output:
 Change Dir: /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec455450582/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec455450582.dir/build.make CMakeFiles/cmTryCompileExec455450582.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec2247853950/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2247853950.dir/build.make CMakeFiles/cmTryCompileExec2247853950.dir/build
 make[1]: Entering directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec455450582.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec455450582.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
-Linking C executable cmTryCompileExec455450582
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec455450582.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec455450582.dir/CheckFunctionExists.c.o  -o cmTryCompileExec455450582 -rdynamic -lpthreads 
+Building C object CMakeFiles/cmTryCompileExec2247853950.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec2247853950.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2247853950
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2247853950.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec2247853950.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2247853950 -rdynamic -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-make[1]: *** [cmTryCompileExec455450582] Error 1
+make[1]: *** [cmTryCompileExec2247853950] Error 1
 make[1]: Leaving directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
-make: *** [cmTryCompileExec455450582/fast] Error 2
+make: *** [cmTryCompileExec2247853950/fast] Error 2
 
 
 Determining if the pthread_create exist failed with the following output:
 Change Dir: /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec2635858482/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2635858482.dir/build.make CMakeFiles/cmTryCompileExec2635858482.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec2880573698/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2880573698.dir/build.make CMakeFiles/cmTryCompileExec2880573698.dir/build
 make[1]: Entering directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec2635858482.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2635858482.dir/CheckSymbolExists.c.o   -c /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTryCompileExec2635858482
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2635858482.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTryCompileExec2635858482.dir/CheckSymbolExists.c.o  -o cmTryCompileExec2635858482 -rdynamic 
-CMakeFiles/cmTryCompileExec2635858482.dir/CheckSymbolExists.c.o: In function `main':
+Building C object CMakeFiles/cmTryCompileExec2880573698.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2880573698.dir/CheckSymbolExists.c.o   -c /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec2880573698
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2880573698.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2880573698.dir/CheckSymbolExists.c.o  -o cmTryCompileExec2880573698 -rdynamic 
+CMakeFiles/cmTryCompileExec2880573698.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-make[1]: *** [cmTryCompileExec2635858482] Error 1
+make[1]: *** [cmTryCompileExec2880573698] Error 1
 make[1]: Leaving directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
-make: *** [cmTryCompileExec2635858482/fast] Error 2
+make: *** [cmTryCompileExec2880573698/fast] Error 2
 
 File /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
@@ -989,40 +989,40 @@ int main(int argc, char** argv)
 Determining if the function pthread_create exists in the pthreads failed with the following output:
 Change Dir: /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec3160501971/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec3160501971.dir/build.make CMakeFiles/cmTryCompileExec3160501971.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec2749575930/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2749575930.dir/build.make CMakeFiles/cmTryCompileExec2749575930.dir/build
 make[1]: Entering directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec3160501971.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec3160501971.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
-Linking C executable cmTryCompileExec3160501971
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3160501971.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec3160501971.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3160501971 -rdynamic -lpthreads 
+Building C object CMakeFiles/cmTryCompileExec2749575930.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec2749575930.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2749575930
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2749575930.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec2749575930.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2749575930 -rdynamic -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-make[1]: *** [cmTryCompileExec3160501971] Error 1
+make[1]: *** [cmTryCompileExec2749575930] Error 1
 make[1]: Leaving directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
-make: *** [cmTryCompileExec3160501971/fast] Error 2
+make: *** [cmTryCompileExec2749575930/fast] Error 2
 
 
 Determining if the pthread_create exist failed with the following output:
 Change Dir: /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec3647285265/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec3647285265.dir/build.make CMakeFiles/cmTryCompileExec3647285265.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec2249241891/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2249241891.dir/build.make CMakeFiles/cmTryCompileExec2249241891.dir/build
 make[1]: Entering directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec3647285265.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3647285265.dir/CheckSymbolExists.c.o   -c /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTryCompileExec3647285265
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3647285265.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTryCompileExec3647285265.dir/CheckSymbolExists.c.o  -o cmTryCompileExec3647285265 -rdynamic 
-CMakeFiles/cmTryCompileExec3647285265.dir/CheckSymbolExists.c.o: In function `main':
+Building C object CMakeFiles/cmTryCompileExec2249241891.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2249241891.dir/CheckSymbolExists.c.o   -c /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec2249241891
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2249241891.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2249241891.dir/CheckSymbolExists.c.o  -o cmTryCompileExec2249241891 -rdynamic 
+CMakeFiles/cmTryCompileExec2249241891.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-make[1]: *** [cmTryCompileExec3647285265] Error 1
+make[1]: *** [cmTryCompileExec2249241891] Error 1
 make[1]: Leaving directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
-make: *** [cmTryCompileExec3647285265/fast] Error 2
+make: *** [cmTryCompileExec2249241891/fast] Error 2
 
 File /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
@@ -1042,40 +1042,40 @@ int main(int argc, char** argv)
 Determining if the function pthread_create exists in the pthreads failed with the following output:
 Change Dir: /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec205372507/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec205372507.dir/build.make CMakeFiles/cmTryCompileExec205372507.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec308429659/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec308429659.dir/build.make CMakeFiles/cmTryCompileExec308429659.dir/build
 make[1]: Entering directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec205372507.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec205372507.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
-Linking C executable cmTryCompileExec205372507
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec205372507.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec205372507.dir/CheckFunctionExists.c.o  -o cmTryCompileExec205372507 -rdynamic -lpthreads 
+Building C object CMakeFiles/cmTryCompileExec308429659.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec308429659.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec308429659
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec308429659.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec308429659.dir/CheckFunctionExists.c.o  -o cmTryCompileExec308429659 -rdynamic -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-make[1]: *** [cmTryCompileExec205372507] Error 1
+make[1]: *** [cmTryCompileExec308429659] Error 1
 make[1]: Leaving directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
-make: *** [cmTryCompileExec205372507/fast] Error 2
+make: *** [cmTryCompileExec308429659/fast] Error 2
 
 
 Determining if the pthread_create exist failed with the following output:
 Change Dir: /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec809265295/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec809265295.dir/build.make CMakeFiles/cmTryCompileExec809265295.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec169472581/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec169472581.dir/build.make CMakeFiles/cmTryCompileExec169472581.dir/build
 make[1]: Entering directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec809265295.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTryCompileExec809265295.dir/CheckSymbolExists.c.o   -c /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTryCompileExec809265295
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec809265295.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTryCompileExec809265295.dir/CheckSymbolExists.c.o  -o cmTryCompileExec809265295 -rdynamic 
-CMakeFiles/cmTryCompileExec809265295.dir/CheckSymbolExists.c.o: In function `main':
+Building C object CMakeFiles/cmTryCompileExec169472581.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec169472581.dir/CheckSymbolExists.c.o   -c /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec169472581
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec169472581.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec169472581.dir/CheckSymbolExists.c.o  -o cmTryCompileExec169472581 -rdynamic 
+CMakeFiles/cmTryCompileExec169472581.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-make[1]: *** [cmTryCompileExec809265295] Error 1
+make[1]: *** [cmTryCompileExec169472581] Error 1
 make[1]: Leaving directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
-make: *** [cmTryCompileExec809265295/fast] Error 2
+make: *** [cmTryCompileExec169472581/fast] Error 2
 
 File /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
@@ -1095,19 +1095,337 @@ int main(int argc, char** argv)
 Determining if the function pthread_create exists in the pthreads failed with the following output:
 Change Dir: /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec367551028/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec367551028.dir/build.make CMakeFiles/cmTryCompileExec367551028.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec330571955/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec330571955.dir/build.make CMakeFiles/cmTryCompileExec330571955.dir/build
 make[1]: Entering directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec367551028.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec367551028.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
-Linking C executable cmTryCompileExec367551028
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec367551028.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec367551028.dir/CheckFunctionExists.c.o  -o cmTryCompileExec367551028 -rdynamic -lpthreads 
+Building C object CMakeFiles/cmTryCompileExec330571955.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec330571955.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec330571955
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec330571955.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec330571955.dir/CheckFunctionExists.c.o  -o cmTryCompileExec330571955 -rdynamic -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-make[1]: *** [cmTryCompileExec367551028] Error 1
+make[1]: *** [cmTryCompileExec330571955] Error 1
 make[1]: Leaving directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
-make: *** [cmTryCompileExec367551028/fast] Error 2
+make: *** [cmTryCompileExec330571955/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec807981454/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec807981454.dir/build.make CMakeFiles/cmTryCompileExec807981454.dir/build
+make[1]: Entering directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec807981454.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec807981454.dir/CheckSymbolExists.c.o   -c /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec807981454
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec807981454.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec807981454.dir/CheckSymbolExists.c.o  -o cmTryCompileExec807981454 -rdynamic 
+CMakeFiles/cmTryCompileExec807981454.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec807981454] Error 1
+make[1]: Leaving directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec807981454/fast] Error 2
+
+File /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2620869632/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2620869632.dir/build.make CMakeFiles/cmTryCompileExec2620869632.dir/build
+make[1]: Entering directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2620869632.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec2620869632.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2620869632
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2620869632.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec2620869632.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2620869632 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec2620869632] Error 1
+make[1]: Leaving directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec2620869632/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3565616468/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3565616468.dir/build.make CMakeFiles/cmTryCompileExec3565616468.dir/build
+make[1]: Entering directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3565616468.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3565616468.dir/CheckSymbolExists.c.o   -c /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec3565616468
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3565616468.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3565616468.dir/CheckSymbolExists.c.o  -o cmTryCompileExec3565616468 -rdynamic 
+CMakeFiles/cmTryCompileExec3565616468.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec3565616468] Error 1
+make[1]: Leaving directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec3565616468/fast] Error 2
+
+File /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4193924408/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4193924408.dir/build.make CMakeFiles/cmTryCompileExec4193924408.dir/build
+make[1]: Entering directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4193924408.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec4193924408.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec4193924408
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4193924408.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec4193924408.dir/CheckFunctionExists.c.o  -o cmTryCompileExec4193924408 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec4193924408] Error 1
+make[1]: Leaving directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec4193924408/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2810202779/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2810202779.dir/build.make CMakeFiles/cmTryCompileExec2810202779.dir/build
+make[1]: Entering directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2810202779.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2810202779.dir/CheckSymbolExists.c.o   -c /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec2810202779
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2810202779.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2810202779.dir/CheckSymbolExists.c.o  -o cmTryCompileExec2810202779 -rdynamic 
+CMakeFiles/cmTryCompileExec2810202779.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec2810202779] Error 1
+make[1]: Leaving directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec2810202779/fast] Error 2
+
+File /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1469553731/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1469553731.dir/build.make CMakeFiles/cmTryCompileExec1469553731.dir/build
+make[1]: Entering directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1469553731.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec1469553731.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1469553731
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1469553731.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec1469553731.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1469553731 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec1469553731] Error 1
+make[1]: Leaving directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec1469553731/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1751570610/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1751570610.dir/build.make CMakeFiles/cmTryCompileExec1751570610.dir/build
+make[1]: Entering directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1751570610.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1751570610.dir/CheckSymbolExists.c.o   -c /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec1751570610
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1751570610.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1751570610.dir/CheckSymbolExists.c.o  -o cmTryCompileExec1751570610 -rdynamic 
+CMakeFiles/cmTryCompileExec1751570610.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec1751570610] Error 1
+make[1]: Leaving directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec1751570610/fast] Error 2
+
+File /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2539320916/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2539320916.dir/build.make CMakeFiles/cmTryCompileExec2539320916.dir/build
+make[1]: Entering directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2539320916.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec2539320916.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2539320916
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2539320916.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec2539320916.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2539320916 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec2539320916] Error 1
+make[1]: Leaving directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec2539320916/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1061161562/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1061161562.dir/build.make CMakeFiles/cmTryCompileExec1061161562.dir/build
+make[1]: Entering directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1061161562.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1061161562.dir/CheckSymbolExists.c.o   -c /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec1061161562
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1061161562.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1061161562.dir/CheckSymbolExists.c.o  -o cmTryCompileExec1061161562 -rdynamic 
+CMakeFiles/cmTryCompileExec1061161562.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec1061161562] Error 1
+make[1]: Leaving directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec1061161562/fast] Error 2
+
+File /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3076758076/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3076758076.dir/build.make CMakeFiles/cmTryCompileExec3076758076.dir/build
+make[1]: Entering directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3076758076.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec3076758076.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3076758076
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3076758076.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec3076758076.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3076758076 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec3076758076] Error 1
+make[1]: Leaving directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec3076758076/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4058985445/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4058985445.dir/build.make CMakeFiles/cmTryCompileExec4058985445.dir/build
+make[1]: Entering directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4058985445.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec4058985445.dir/CheckSymbolExists.c.o   -c /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec4058985445
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4058985445.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec4058985445.dir/CheckSymbolExists.c.o  -o cmTryCompileExec4058985445 -rdynamic 
+CMakeFiles/cmTryCompileExec4058985445.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec4058985445] Error 1
+make[1]: Leaving directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec4058985445/fast] Error 2
+
+File /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1155513266/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1155513266.dir/build.make CMakeFiles/cmTryCompileExec1155513266.dir/build
+make[1]: Entering directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1155513266.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec1155513266.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1155513266
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1155513266.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec1155513266.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1155513266 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec1155513266] Error 1
+make[1]: Leaving directory `/home/kenneth/nao/devtools/naoqi-sdk/doc/examples/core/wbredball/build-remote/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec1155513266/fast] Error 2
 
 
